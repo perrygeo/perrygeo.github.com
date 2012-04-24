@@ -1,0 +1,29 @@
+---
+date: '2010-06-09 06:27:55'
+layout: post
+slug: kmltree
+status: publish
+title: kmltree
+wpid: '149'
+---
+
+When the [MarineMap](http://marinemap.org) team started delving into the [Google Earth plugin](http://earth.google.com/plugin/), it was apparent that it supported the display and rendering of KML files _almost_ as well as the Google Earth desktop application. The missing piece of functionality was the nice tree-style legend that is provided with the desktop app. The plugin lets you add KML for display but gives you no HTML interface to work with it. For simple apps, you can just roll your own html/js form. But that quickly becomes unmanageable if you're adding KML dynamically and need to create a tree-style legend for any arbitrary KML document. 
+
+Enter [kmltree](http://code.google.com/p/kmltree/). 
+
+
+> 
+kmltree is a javascript tree widget that can be used in conjunction with the Google Earth API. It replicates the functionality of the Google Earth desktop client, and is fast, extensible, and stable for use in advanced web applications. It's built utilizing the earth-api-utility-library and jQuery. 
+
+
+
+[![kmltree](http://www.perrygeo.net/wordpress/wp-content/uploads/2010/06/screen-shot-2010-06-09-at-81707-am.png)](http://www.perrygeo.net/wordpress/wp-content/uploads/2010/06/screen-shot-2010-06-09-at-81707-am.png)
+
+Any arbitrary KML can be parsed and represented in a tree-style legend right in the web browser. [Try it out](http://kmltree.googlecode.com/hg/examples/refresh.html).
+
+Kmltree is the brainchild of [Chad Burt](http://www.google.com/profiles/underbluewaters) who developed it as part of the marinemap codebase but had the foresight to realize that this would be useful to a much wider audience and abstracted it into its own javascript library. If you're building a web mapping application with the Google Earth API, give it a shot!
+
+
+
+
+
