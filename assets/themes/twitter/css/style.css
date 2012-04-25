@@ -1,3 +1,21 @@
+/* perrygeo customizations */
+div .box {
+    background-color: white;
+    background-repeat: no-repeat;
+    border: 1px solid #DDDDDD;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 5px 5px 5px #DDDDDD;
+    margin-bottom: 8px;
+    margin-top: 4px;
+    min-height: 55px;
+    padding: 18px;
+}
+
+blockquote {
+    font-size: 80%;
+    text-decoration: italic;
+}
+
 /* Override some defaults */
 html, body {
   background-color: #eee;

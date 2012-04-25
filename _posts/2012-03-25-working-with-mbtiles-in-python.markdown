@@ -4,10 +4,11 @@ layout: post
 slug: working-with-mbtiles-in-python
 status: publish
 title: Working with mbtiles in python
+tldr: Python code for working with mbtiles databases
 wpid: '163'
 ---
 
-TL;DR; Python code for working with mbtiles databases: [python-mbtiles](https://github.com/perrygeo/python-mbtiles). Check it out. 
+[python-mbtiles](https://github.com/perrygeo/python-mbtiles). Check it out.
 
 I've been working a bit with Tilemill lately and love the Carto css styling, iteractivity through UTFGrids and being able to export the whole deal as a single [mbtiles](http://mapbox.com/mbtiles-spec/) sqlite database. But when it comes to working with the mbtiles databases, I've found both Tilestache and Tilestream to be fairly limiting:
 

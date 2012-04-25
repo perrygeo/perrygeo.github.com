@@ -17,10 +17,7 @@ But I can't accept his treatment of Quantum GIS:
 
 
 
-> 
-I did not fully test Quantum GIS. I did download and install it but the software was too complicated to use "right out of the box", and I did not have time to learn to use it.
-
-
+> I did not fully test Quantum GIS. I did download and install it but the software was too complicated to use "right out of the box", and I did not have time to learn to use it.
 
 
 The feature comparison chart includes mainly "?" in the QGIS column. 
