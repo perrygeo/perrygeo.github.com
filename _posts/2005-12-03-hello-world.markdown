@@ -89,7 +89,7 @@ qgis &
 
 
 
-![s57 results](http://perrygeo.net/img/s57.png)
+![s57 results](/assets/img/s57.png)
 
 
 From the screenshot, we see the pits and spikes from potential outliers so we might want to go back and adjust the tension and smoothing on the raster creation (the v.surf.rst command).

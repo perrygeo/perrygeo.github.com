@@ -55,7 +55,7 @@ Once the shapefile is created, you can bring it into GRASS to do the processing 
 
 
 
-![](http://perrygeo.net/img/nviz_lidar.png)
+![](/assets/img/nviz_lidar.png)
 
 Of course the method I just described is very simplistic and does not even come close to utilizing the full potential of the LIDAR point cloud, but it's a start.
 

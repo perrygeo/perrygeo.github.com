@@ -7,7 +7,7 @@ title: 'Hike of Doom #2- OGC KML'
 wpid: '114'
 ---
 
-In commemoration of the [OGC approval of KML](http://www.opengeospatial.org/pressroom/pressreleases/857) as an open standard to share geographic content over the web, I'd like to share our recent ["Hike of Doom #2"](http://perrygeo.net/img/hikeofdoom2/hikeofdoom_20080413.kmz) (kml provided by Mark Dotson).
+In commemoration of the [OGC approval of KML](http://www.opengeospatial.org/pressroom/pressreleases/857) as an open standard to share geographic content over the web, I'd like to share our recent ["Hike of Doom #2"](/assets/img/hikeofdoom2/hikeofdoom_20080413.kmz) (kml provided by Mark Dotson).
   
 
 

@@ -33,9 +33,9 @@ This allows for a single command:
 
 
 
-![](http://perrygeo.net/img/bearboxes.jpg)
+![](/assets/img/bearboxes.jpg)
 
-which produces [an html file](http://perrygeo.net/img/bearboxes.html) providing a Yahoo maps interface to the data; in this case the point location of all the bear boxes (food storage lockers to keep your stuff separated from the bears) in the Sierra Nevada. 
+which produces [an html file](/assets/img/bearboxes.html) providing a Yahoo maps interface to the data; in this case the point location of all the bear boxes (food storage lockers to keep your stuff separated from the bears) in the Sierra Nevada. 
 
 Currently it just supports Microsoft Virtual Earth and Yahoo. I had to bypass Google because their key system is restricted by URL. And the mapstraction-to-openlayers connection wasn't working too well though I haven't really investigated.
 

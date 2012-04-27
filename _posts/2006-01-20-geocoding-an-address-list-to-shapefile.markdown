@@ -61,7 +61,7 @@ Now run the _txt2shp.py_ utility. The input and output parameters are self-expla
 
 And now you've got a shapefile of the geocoded cities! 
 
-![Cities Shapefile](http://perrygeo.net/img/cities.png)
+![Cities Shapefile](/assets/img/cities.png)
 
 The txt2shp.py script can be downloaded [ here](http://perrygeo.net/download/txt2shp.py). Try it out and let me know how  it's working for you.
 
