@@ -18,8 +18,7 @@ This functionality is in CVS only at the moment but should be included in the ne
 The conversion process is pretty straightforward. For example, the following will convert a shapefile (sbpoints.shp) to KML (mypoints.kml). 
 
 
-> ogr2ogr -f KML mypoints.kml sbpoints.shp sbpoints
-
+    ogr2ogr -f KML mypoints.kml sbpoints.shp sbpoints
 
 
 The KML format flys in the face of the GIS mantra stating that content should be seperate from styling. Since styling information is purposefully absent from most standard vector formats, it makes for pretty bland KML output. The attributes just get dumped out into one big text block and there is no classification or styling control.
