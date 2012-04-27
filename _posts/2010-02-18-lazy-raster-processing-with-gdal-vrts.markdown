@@ -39,7 +39,7 @@ Simple enough to do with GDAL tools on the command line. Here's the typical, **p
 
 
 
-
+```
   1. gdal_merge.py -of GTiff -o srtm_merged.tif srtm_12_*.tif 
 
 
@@ -47,7 +47,7 @@ Simple enough to do with GDAL tools on the command line. Here's the typical, **p
 
 
   3. gdaldem hillshade srtm_merged_3310.tif srtm_merged_3310_shade.tif -of GTiff 
-
+```
 
 
 

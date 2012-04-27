@@ -1,6 +1,6 @@
 ---
 layout: page
-tagline: Selected rantings of a geospatial tech nerd
+tagline: Selected ramblings of a geospatial tech nerd
 ---
 {% include JB/setup %}
 
