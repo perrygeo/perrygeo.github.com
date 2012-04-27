@@ -31,13 +31,13 @@ Specifically I am thinking about watersheds here - the US [Hydrologic Units](htt
 
 
 
-![Level 4 HUCs](http://www.perrygeo.net/wordpress/wp-content/uploads/2011/05/huc8.png)
+![Level 4 HUCs](/assets/img/uploads/2011/05/huc8.png)
 
 
-![Level 5 HUCs](http://www.perrygeo.net/wordpress/wp-content/uploads/2011/05/huc10.png)
+![Level 5 HUCs](/assets/img/uploads/2011/05/huc10.png)
 
 
-![Level 6 HUCs](http://www.perrygeo.net/wordpress/wp-content/uploads/2011/05/huc12.png)
+![Level 6 HUCs](/assets/img/uploads/2011/05/huc12.png)
 
 
 
@@ -62,7 +62,7 @@ e.g. 1709001104**03**
 Instead of fabricating a hierarchy of features, why not just use this natural hierarchy to structure the KML documents?
 
 
-![hucs-1.png](http://www.perrygeo.net/wordpress/wp-content/uploads/2011/05/hucs-1.png)
+![hucs-1.png](/assets/img/uploads/2011/05/hucs-1.png)
 
 
 Or as KML markup:

@@ -9,7 +9,7 @@ wpid: '132'
 
 Dealing with corrupted shapefiles can be a painful experience: programs crash for seemingly no reason, attribute tables get screwy, features get lost, queries results don't look right and ArcGIS processing tools fail with mysterious error codes:
 
-![Dissolve error](http://www.perrygeo.net/wordpress/wp-content/uploads/2009/03/dissolve_error.jpg)
+![Dissolve error](/assets/img/uploads/2009/03/dissolve_error.jpg)
 
 Never fear, OGR is here. The magic bullet for fixing corrupted shapefiles is, 90% of the time, accomplished by using ogr2ogr to convert the shapefile to another shapefile. 
 

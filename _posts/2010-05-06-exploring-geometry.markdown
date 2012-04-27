@@ -13,17 +13,17 @@ I was actually just talking with someone about a tool that could provide simple 
 
 You can input geometries (graphically or by well-known text) and compare two geometries based on spatial predicates:
 
-[![spatial predicates](http://www.perrygeo.net/wordpress/wp-content/uploads/2010/05/screen-shot-2010-05-06-at-81418-pm.png)](http://www.perrygeo.net/wordpress/wp-content/uploads/2010/05/screen-shot-2010-05-06-at-81418-pm.png)
+[![spatial predicates](/assets/img/uploads/2010/05/screen-shot-2010-05-06-at-81418-pm.png)](/assets/img/uploads/2010/05/screen-shot-2010-05-06-at-81418-pm.png)
 
 Do overlay analyses with the two geometries. Note that you can see the result as WKT below.
 
-[![overlay](http://www.perrygeo.net/wordpress/wp-content/uploads/2010/05/screen-shot-2010-05-06-at-81502-pm.png)](http://www.perrygeo.net/wordpress/wp-content/uploads/2010/05/screen-shot-2010-05-06-at-81502-pm.png)
+[![overlay](/assets/img/uploads/2010/05/screen-shot-2010-05-06-at-81502-pm.png)](/assets/img/uploads/2010/05/screen-shot-2010-05-06-at-81502-pm.png)
 
 And there are a host of other spatial operations to generate geometries using buffers...
-[![buffers](http://www.perrygeo.net/wordpress/wp-content/uploads/2010/05/screen-shot-2010-05-06-at-81602-pm.png)](http://www.perrygeo.net/wordpress/wp-content/uploads/2010/05/screen-shot-2010-05-06-at-81602-pm.png)
+[![buffers](/assets/img/uploads/2010/05/screen-shot-2010-05-06-at-81602-pm.png)](/assets/img/uploads/2010/05/screen-shot-2010-05-06-at-81602-pm.png)
 
 ... convex hulls ...
-[![convex hull](http://www.perrygeo.net/wordpress/wp-content/uploads/2010/05/screen-shot-2010-05-06-at-81716-pm.png)](http://www.perrygeo.net/wordpress/wp-content/uploads/2010/05/screen-shot-2010-05-06-at-81716-pm.png)
+[![convex hull](/assets/img/uploads/2010/05/screen-shot-2010-05-06-at-81716-pm.png)](/assets/img/uploads/2010/05/screen-shot-2010-05-06-at-81716-pm.png)
 
 This app provides a very nice and user-friendly way to quickly and simply explore and test geometric operations. To try it out, [download JTS](http://sourceforge.net/projects/jts-topo-suite/) and unzip the contents somewhere. If you're on windows, the .bat file is provided. If you're running anything else, you have to cook up a shell script that will set up the environment and run JTS TestBuilder:
 

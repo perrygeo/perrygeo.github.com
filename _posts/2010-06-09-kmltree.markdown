@@ -17,7 +17,7 @@ kmltree is a javascript tree widget that can be used in conjunction with the Goo
 
 
 
-[![kmltree](http://www.perrygeo.net/wordpress/wp-content/uploads/2010/06/screen-shot-2010-06-09-at-81707-am.png)](http://www.perrygeo.net/wordpress/wp-content/uploads/2010/06/screen-shot-2010-06-09-at-81707-am.png)
+[![kmltree](/assets/img/uploads/2010/06/screen-shot-2010-06-09-at-81707-am.png)](/assets/img/uploads/2010/06/screen-shot-2010-06-09-at-81707-am.png)
 
 Any arbitrary KML can be parsed and represented in a tree-style legend right in the web browser. [Try it out](http://kmltree.googlecode.com/hg/examples/refresh.html).
 

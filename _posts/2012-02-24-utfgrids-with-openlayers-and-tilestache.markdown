@@ -172,7 +172,7 @@ Now we need something to consume the UTFGrid tiles and interact with them in an 
 
 Rather than clog up Wax with the complex UTFGrid use cases that we envisioned, we decided to implement a UTFGrid client in native OpenLayers. Hence my project for the [OSGEO code sprint](http://wiki.osgeo.org/wiki/IslandWood_Code_Sprint_2012) was born.
 
-![olexample.PNG](http://www.perrygeo.net/wordpress/wp-content/uploads/2012/02/olexample.PNG)
+![olexample.PNG](/assets/img/uploads/2012/02/olexample.PNG)
 
 The result was a new OpenLayers Layer which loads up the json "tiles" behind the scenes...
 
