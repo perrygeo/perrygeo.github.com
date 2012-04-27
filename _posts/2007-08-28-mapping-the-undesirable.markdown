@@ -19,7 +19,7 @@ These are good points, but even more disturbing to me as a citizen and a GIS pro
 
 For instance, which of the homes in the map below is the residence of a sex offender? Does the ambiguity bother you? Would it matter more if _you_ were the innocent person living next door?
 
-![](/img/offender.png)
+![](/assets/img/offender.png)
 
 For maps with this much social weight, I think that a bit more diligence is due to ensure that this data is as accurate as it needs to be! 
 

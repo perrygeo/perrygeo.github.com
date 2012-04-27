@@ -56,7 +56,7 @@ There was also the question of speed and how it compared to other WMS servers su
 
 Then just run the script from the command line, specifying the server and number of hits, and wrap it in the _time_ command. Here are the results:
 
-![](/img/manik_vs_mapserv_speed.png)
+![](/assets/img/manik_vs_mapserv_speed.png)
 
 Pretty close. Mapserver was just slightly faster in every case. Now this is just a preliminary test and it would be interested to see a comparison:
 

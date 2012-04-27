@@ -40,4 +40,4 @@ Then you need to load the library, load the csv, scale the intensity values from
 
 That's all it takes to render Thom Yorke in all his 3D digital glory:
 
-![](/img/radiohead2.jpg)
+![](/assets/img/radiohead2.jpg)

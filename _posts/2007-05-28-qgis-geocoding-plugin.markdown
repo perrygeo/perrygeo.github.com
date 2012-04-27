@@ -13,9 +13,9 @@ The idea was to use web services to do all the actual geocoding work (the hard p
 
  The user interface is very straightforward; enter list of addresses/placenames seperated by a line break, pick an output file and go. To be legitimate, you should also sign up for a yahoo api key, though the 'YahooDemo' key will work ok for testing purposes.
 
-[![](/img/dialog_thumb.jpg)](/img/dialog.jpg)
+[![](/assets/img/dialog_thumb.jpg)](/assets/img/dialog.jpg)
 
-[![](/img/result_thumb.jpg)](/img/result.jpg)
+[![](/assets/img/result_thumb.jpg)](/assets/img/result.jpg)
 
 Here's the install process (assuming you already have [python, pyqt4, qgis 0.9, qgis bindings, etc. set up](http://www.reprojected.com/presentations/Videos/qgis_install_051407/install_qgis.txt)):
 

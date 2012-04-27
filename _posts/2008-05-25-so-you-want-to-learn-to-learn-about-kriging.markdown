@@ -13,7 +13,7 @@ But if you're an experience learner (like me) you don't absorb the mathematics f
 
 Luckily Dennis J. J. Walvoort of the Wageningen University & Research Center saw the same problem and created an nifty learning to to explore varigoram models and spatial predictions using ordinary kriging - [EZ-Kriging](http://www.ai-geostats.org/index.php?id=114). No degree in math or statistical theory required. Just drag the points around, play with the parameters and alter the underlying data as a table and see the results immediately.
 
-[![](/img/ezkriging_thumb.jpg)](/img/ezkriging.jpg)
+[![](/assets/img/ezkriging_thumb.jpg)](/assets/img/ezkriging.jpg)
 
 Its nothing more than a simulation so don't expect to load your own datasets or produce any meaningful output with it. But it truly excels as a learning tool to understand the core concepts behind kriging and is a great complement to Hengl and Rossiter's work. With that knowledge you can do the real deal in Surfer, R, ILWIS or your geostats software of choice.
 

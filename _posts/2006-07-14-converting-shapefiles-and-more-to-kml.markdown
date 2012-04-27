@@ -22,6 +22,6 @@ The conversion process is pretty straightforward. For example, the following wil
 
 
 The KML format flys in the face of the GIS mantra stating that content should be seperate from styling. Since styling information is purposefully absent from most standard vector formats, it makes for pretty bland KML output. The attributes just get dumped out into one big text block and there is no classification or styling control.
-![](/img/ogrkml.jpg)
+![](/assets/img/ogrkml.jpg)
 
  But in terms of getting your data into Google Earth quickly (esp. point data), the OGR method looks promising.

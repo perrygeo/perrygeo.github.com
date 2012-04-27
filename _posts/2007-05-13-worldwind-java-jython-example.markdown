@@ -12,7 +12,7 @@ The [ worldwind java sdk ](http://worldwind.arc.nasa.gov/java/index.html) has fi
 The only problem is the examples are written in Java  ;-) . If braces make you cringe but you still want to work with all the excellent Java libraries out there, you'll want to take a look at Jython. Taking the AWT1Up.java code and porting a subset of the functionality to Jython was surprisingly easy and yielded much more readable code in my opinion. And the ability to manipulate objects at the interactive prompt is just so sweet. 
 
 
-[ ![](/img/wwj_jython_thumb.jpg) ](/img/wwj_jython.jpg)
+[ ![](/assets/img/wwj_jython_thumb.jpg) ](/assets/img/wwj_jython.jpg)
   
 
 [ View the Source Code ](http://perrygeo.googlecode.com/svn/trunk/gis-bin/wwj_demo.py)

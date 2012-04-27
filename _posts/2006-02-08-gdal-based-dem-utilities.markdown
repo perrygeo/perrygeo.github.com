@@ -75,7 +75,7 @@ The four binaries can then be placed wherever your local binaries reside (typica
 
 In this particular example the input DEM is a GeoTIFF but these utilities can use any [GDAL-supported raster source](http://gdal.maptools.org/formats_list.html).
 
-![](/img/dem/dem.jpg)
+![](/assets/img/dem/dem.jpg)
 
 
 
@@ -89,7 +89,7 @@ This command will take a DEM raster and output a 32-bit GeoTiff with slope value
 > slope dem.tif slope.tif
 
 
-![](/img/dem/slope.jpg)
+![](/assets/img/dem/slope.jpg)
 
 
 
@@ -103,7 +103,7 @@ This command outputs a 32-bit GeoTiff with values between 0 and 360 representing
 > aspect dem.tif aspect.tif
 
 
-![](/img/dem/aspect.jpg)
+![](/assets/img/dem/aspect.jpg)
 
 
 
@@ -117,7 +117,7 @@ This command outputs an 8-bit GeoTiff with a nice shaded relief effect. It's ver
 > hillshade dem.tif shade.tif
 
 
-![](/img/dem/shade.jpg)
+![](/assets/img/dem/shade.jpg)
 
 
 
@@ -147,7 +147,7 @@ Where scale.txt is a text file containting 4 columns per line, the elevation val
 
 
 The colors between the given elevation values are blended smoothly and the result is a nice colorized DEM:
-![](/img/dem/colordem.jpg)
+![](/assets/img/dem/colordem.jpg)
 
 
 
@@ -166,7 +166,7 @@ There are two ways I've come up with to blend the hillshade and the colorized DE
 
 
  Though both methods work nicely, neither is really ideal since they don't generate a georeferenced tiff.  You can get around this in the GIMP method by creating a [world file (.tfw)](http://gdal.maptools.org/frmt_various.html#WLD) for the output tiff. It might be nice, in the future, to do this step programatically but for now...
-![](/img/dem/combine.jpg)
+![](/assets/img/dem/combine.jpg)
 
 
 Let me know if you've got any suggestions or comments. The technique for all of these utilities is a simple 3x3 moving window so this code might serve as a good template to develop other raster processing utilities... let me know what you come up with!

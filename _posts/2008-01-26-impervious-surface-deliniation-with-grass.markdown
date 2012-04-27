@@ -74,6 +74,6 @@ You might notice a slight speckled, noisy appearance due to things like shadows,
 
 And here are the results... calculating imperviousness will most likely be an iterative process so be prepared to evaluate the output, tweak the training areas and rerun the process a few times. Once you're happy with the results, you can use zonal statistics with a tool like starspan to find the percent imperviousness of your watersheds or other regions.
 
-![](/img/aerial.jpg)
+![](/assets/img/aerial.jpg)
 
-![](/img/imperv_smooth.png)
+![](/assets/img/imperv_smooth.png)

@@ -18,7 +18,7 @@ All the times below are the average of ten runs using a full global view of a si
 
 
 
-![](/img/mapserver_gd_test.jpg)
+![](/assets/img/mapserver_gd_test.jpg)
 
 
 
@@ -43,7 +43,7 @@ shp2img -m test.map -o mapserver_gd_test.jpg
 
 
 
-![](/img/mapserver_agg_test.jpg)
+![](/assets/img/mapserver_agg_test.jpg)
 
 
 
@@ -71,7 +71,7 @@ shp2img -m test.map -o mapserver_agg_test.jpg
 
 
 
-![](/img/mapnik_output.jpg)
+![](/assets/img/mapnik_output.jpg)
 
 
 

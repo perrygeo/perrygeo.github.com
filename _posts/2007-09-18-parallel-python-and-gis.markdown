@@ -13,7 +13,7 @@ So I gave [Parallel Python](http://www.parallelpython.com/) (pp) a shot. Since S
 
 A good candidate for parallel processing is any application that has to crunch away on lists/arrays of data and whose individual members be handled independently (see [pmap in Erlang](http://www.erlang.org/ml-archive/erlang-questions/200606/msg00130.html)). I have been working on [an application to smooth linework using bezier curves](http://perrygeo.googlecode.com/svn/trunk/gis-bin/bezier_smooth_pp.py). It's not quite polished yet but the image below shows the before and after
 
-![](/img/smoothed.jpg)
+![](/assets/img/smoothed.jpg)
 
 ... but [bezier curves](http://en.wikipedia.org/wiki/B%C3%A9zier_curve) aren't quite the subject of this post. Let's just say the algorithm takes some time to compute (if you're using a high density of verticies) and can be handled one LineString feature at a time. This makes it a prime candidate for parallelization.
 

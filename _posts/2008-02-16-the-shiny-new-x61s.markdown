@@ -11,7 +11,7 @@ My HP laptop was nearing 5 years old. It had held up extremely well but most mod
 
 I was looking for something in the ultra-portable range. I tried out the OLPC and looked seriously at the Asus eeepc for a while. But they were far too difficult for me to type on. Ergonomics were extremely important and the only ultraportable that consistently rated high in that department was the IBM/Lenovo thinkpads. The X61s was appealing with its low voltage core2 duo and 2GB of RAM. All that in a small package about 3 lbs and about an inch thick.
 
-![](/img/x61s.jpg)
+![](/assets/img/x61s.jpg)
 
 So the X61s arrived and I figured I'd give it a try with the "stock" software. It was my first experience with Vista and I gave it my best shot. After about 1/2 hour of excessive clicking, boggy performance and pop-up windows, I shrunk the ntfs partition and installed Ubuntu Hardy Heron Alpha 4.  
 

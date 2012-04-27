@@ -33,7 +33,7 @@ After which you should keep your laptop level for a few seconds. Then, when prom
 
   4. Now fire up Google Earth. Open the Options menu, go to Navigation and select Enable Contoller. 
 
-![](/img/GE_joystick.jpg)
+![](/assets/img/GE_joystick.jpg)
 
   5. You should now be able to zoom around by tilting the laptop.  The keyboard shortcuts really help when you're in this mode (Ctl-Up/Down to zoom, Shift-Up/Down to tilt, Shift-Left/Right to pivot). 
 

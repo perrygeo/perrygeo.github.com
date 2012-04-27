@@ -11,6 +11,6 @@ Increases in atmoshperic carbon dioxide (CO2) due to vehicle emmisions are consi
 
  Travelmatter.org has posted [ a series of maps](http://www.travelmatters.org/maps/regional/) comparing these two conflicting views. Here's a sample from Chicago that demonstrates the sharp dichotomy; both entirely accurate but different ways of analyzing the same data:
 
-![](/img/co2-map-chi-med.gif)
+![](/assets/img/co2-map-chi-med.gif)
 
  In every case, the _total_ CO2 emmissions are much greater in dense urban areas. But, _per-capita_, the urban areas have much lower emmissions, sometimes dramatically lower. This second view indicates, as [ WorldChanging ](http://www.worldchanging.com/archives/004390.html) points out, that living in denser neighborhoods can reduce your climate impact. It makes sense that living closer to the places you need to go on a daily basis and having more access to public transportation would reduce the emmissions impact. Maybe cities are "greener" than most of us percieve them to be? 

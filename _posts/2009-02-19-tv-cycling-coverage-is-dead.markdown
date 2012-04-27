@@ -13,6 +13,6 @@ I've been following the Tour of California this week (looking forward to the Sol
 
 Maybe I've just been spoiled by the [Amgen Tour Tracker](http://tracker.amgentourofcalifornia.com/). It is a crowning example of a spatially-aware real-time web application.
 
-[![](/img/tour_tracker_thumb.jpg)](/img/tour_tracker.png)
+[![](/assets/img/tour_tracker_thumb.jpg)](/assets/img/tour_tracker.png)
 
 It provides two cameras of live coverage, live commentary with interviews, chat, summary updates, gps tracking of riders shown on both an elevation profile and a yahoo-based aerial map, "gps+" location prediction, race standings, time checks, etc. Far more information than any TV coverage without resorting to information overload. 

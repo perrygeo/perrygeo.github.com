@@ -60,6 +60,6 @@ This is very useful for situations where you need lower-level access to the gps 
 
 ... which gives you a simple readout to the terminal every 3 seconds.
 
-![](/img/gpsd_python.jpg)
+![](/assets/img/gpsd_python.jpg)
 
 Obviously there are much more interesting applications for this ( logging data to postgis, displaying real-time tracking data in QGIS via a python plugin, etc). But this is a good start for any python based app.

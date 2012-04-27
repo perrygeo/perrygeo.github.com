@@ -17,7 +17,7 @@ In the why-haven't-I-ever-heard-of-this department:
 
 There is also a version that does not depend on MATLAB which is what I decided to try.  This is a great package; easy to install, very usable, lots of high-end raster functionality, and a good sense of humor...
 
-![](/img/mirone.png)
+![](/assets/img/mirone.png)
 
 Considering GMT and GDAL can be a bit challenging and unfamiliar for a typical windows user, Mirone is a huge step forward. 
 

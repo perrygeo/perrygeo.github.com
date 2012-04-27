@@ -13,7 +13,7 @@ I've seen great Tissot diagrams in text books but I wanted to create the indicat
 
 Here is a world countries shapefile overlaid with the Tissot circles in geographic (unprojected lat-long) coordinates:
 
-![Latlong tissot](/img/latlong.png)
+![Latlong tissot](/assets/img/latlong.png)
 
 Next I reprojected the datasets to the Mercator projection using ogr2ogr:
 
@@ -27,7 +27,7 @@ ogr2ogr -t_srs "+proj=merc" tissot_merc.shp tissot.shp tissot
 
 Note that the angles are perfectly preserved (the trademark feature of the Mercator projection) but the size is badly distorted.
 
-![Mercator tissot](/img/mercator.png)
+![Mercator tissot](/assets/img/mercator.png)
 
 Now lets try Lambert Azimuthal Equal Area (in this case the US National Atlas standard projection - EPSG code 2163). 
 
@@ -41,7 +41,7 @@ ogr2ogr -t_srs "epsg:2163" tissot_lambert.shp tissot.shp tissot
 
 This is a great projection for preserving area but get outside the center and shapes become badly distorted:
 
-![LAEA tissot](/img/lambert.png)
+![LAEA tissot](/assets/img/lambert.png)
 
 The best way to experiment with this is to bring the tissot.shp file into ArcMap (or another program that supports on-the-fly projection) and play with it in real time. The distortions of every projection just leap off the screen...
 

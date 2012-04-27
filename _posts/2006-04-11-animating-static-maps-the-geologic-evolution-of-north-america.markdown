@@ -9,7 +9,7 @@ wpid: '39'
 
 The Cartography blog [ recently talked about ](http://ccablog.blogspot.com/2006/04/paleogeographic-maps.html) a series of [excellent Paleogeographic maps](http://jan.ucc.nau.edu/%7Ercb7/nam.html) developed by Dr. Ron Blakey at Northern Arizona University.  Ever since I first studied geology, I had dreamed of an atlas that would clearly and visually demostrate how our current land masses came to be.  This time series of maps focuses on North America and the geologic events that shaped have shaped it for the last 500 million years. Truly fascinating and excellent work. I encourage everyone to check out the site and read a little about it as well as [ the narrative by Geoff Manaugh](http://bldgblog.blogspot.com/2006/04/assembling-north-america_11.html) . 
 
-![](/img/29.gif)
+![](/assets/img/29.gif)
 
 Now it occured to me that a time series of maps lends itself very well to an animated sequence. While I am no graphic artist, I have done a few projects in the past that required stiching together a time-series of maps into an animated gif. The process is fairly simple:
 
@@ -52,7 +52,7 @@ Now it occured to me that a time series of maps lends itself very well to an ani
 
 
 
-Viola! An animated movie from a series of static maps. In the case of the Paleogeologic maps, there were 41 maps which produced a sizable animated gif (about 7.5 MB). You can [check out the results here](/img/geo_evolution.gif). I could watch this play for hours!! Really fascinating stuff.. many thanks to Dr. Ron Blakey for putting this project together.
+Viola! An animated movie from a series of static maps. In the case of the Paleogeologic maps, there were 41 maps which produced a sizable animated gif (about 7.5 MB). You can [check out the results here](/assets/img/geo_evolution.gif). I could watch this play for hours!! Really fascinating stuff.. many thanks to Dr. Ron Blakey for putting this project together.
  
 
 

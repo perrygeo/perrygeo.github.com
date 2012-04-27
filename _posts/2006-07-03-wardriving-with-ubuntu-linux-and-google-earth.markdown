@@ -44,7 +44,7 @@ _ kismet2kml.py kismet-log-Jul-03-2006-1.xml > wardrive.kml _
 
 
 
-![](/img/kismetkml.jpg)
+![](/assets/img/kismetkml.jpg)
   
 
 Also, as James Fee [points out](http://www.spatiallyadjusted.com/2006/07/03/help-me-think-of-a-good-mashup-to-create/), posting your data as KML files means that the data can be integrated into a growing number of kml-ready apps including google maps (just upload the kml and point your browser to _http://maps.google.com/maps?q=http://your.server/wardrive.kml_).  

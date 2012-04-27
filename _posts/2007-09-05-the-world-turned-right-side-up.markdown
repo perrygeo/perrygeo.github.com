@@ -42,7 +42,7 @@ The standard gdal_translate method (which doesn't account for the inverted coord
 > gdal_translate -of GTiff krig1.grd krig1_translate.tif
 
 
-![](/img/standard.jpg)
+![](/assets/img/standard.jpg)
 
 And the flipped raster method:
 
@@ -51,7 +51,7 @@ And the flipped raster method:
 > flip_raster.py -o krig1_flip.tif -of GTiff krig1.grd 
 
 
-![](/img/flipped.jpg)
+![](/assets/img/flipped.jpg)
 
 And we're good.  gdalinfo confirms that we have the same extents, pixel sizes, metadata, etc as the original dataset. 
 

@@ -14,7 +14,7 @@ One of the coolest ideas are "sparklines" which he describes as "data-intense, d
 
 
 
- _The US National Debt as a percentage of GDP increased during the Reagan and Bush presidencies ![](/img/reaganbush.GIF) but dropped off slightly during the Clinton administration  ![](/img/clinton.GIF) . _
+ _The US National Debt as a percentage of GDP increased during the Reagan and Bush presidencies ![](/assets/img/reaganbush.GIF) but dropped off slightly during the Clinton administration  ![](/assets/img/clinton.GIF) . _
 
 
 
@@ -31,7 +31,7 @@ spark.sparkline_smooth(a).show()
 
 
 
-Or if you prefer a more discrete, bar-graph-style ![](/img/discrete.GIF) instead of a smooth line:
+Or if you prefer a more discrete, bar-graph-style ![](/assets/img/discrete.GIF) instead of a smooth line:
 
 
 

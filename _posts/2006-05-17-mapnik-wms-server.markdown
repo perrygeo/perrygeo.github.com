@@ -253,11 +253,11 @@ Now you can access it with a WMS request like so:
 
 
 
-![](/img/mapnik.png)
+![](/assets/img/mapnik.png)
 
 Compare the linework with a comparable WMS service with UMN Mapserver on the backend. I'll let the results speak for themselves...
 
-![](/img/mapserv.png)
+![](/assets/img/mapserv.png)
 
 Even if it's map rendering is smooth, Mapnik's WMS server is still a bit rough around the edges:
 
