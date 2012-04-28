@@ -3,7 +3,7 @@ layout: post
 title: "Migrating from Wordpress to Jekyll"
 description: ""
 category: 
-tldr: static files 
+tldr: static file blogging 
 tags:
 - jekyll
 - git
@@ -20,7 +20,7 @@ to a static-file [jekyll bootstrap](http://jekyllbootstrap.com/) site (hosted by
 3. Markdown is a great language for quickly banging out blog posts.
 4. Static files just make sense for what is basically static content.
 5. Github pages provides the hosting for me and even handles CNAMEs for DNS.
-6. Version managing with `git`.
+6. Managing revisions with `git`.
 
 ### The conversion process
 
@@ -38,7 +38,8 @@ It was not an entirely smooth transition, most of which can be traced directly t
 
 I think that's about it. There are still some big formatting problems on older posts (mostly due to the fact that I used blockquotes for code). And tables are still destroyed. I'll be working on cleaning these up as I go along. 
 
-Overall impression of Jekyll-Bootstrap and hosting with Github pages? **Awesome**. I would highly recomend it to anyone starting a new blog or converting a smaller/better-behaved wordpress site. The conversion was a bit hairy and took way more of my Friday and Saturday than I'd like to admit. I would not want to do that again... But I'm glad did. 
+Overall impression of Jekyll-Bootstrap and hosting with Github pages? **Awesome**. I would highly recomend it to anyone starting a new blog or converting a smaller/better-behaved wordpress site. 
+It is so much better than having to deal with PHP and MySQL (hopefully the last time I'll ever see them!). But the conversion was a bit tricky and took way more of my Friday and Saturday than I'd like to admit. I would not want to do that again... But I'm glad did. 
 
 What do you think of the new digs?
  
