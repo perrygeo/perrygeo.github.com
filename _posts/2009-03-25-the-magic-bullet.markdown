@@ -5,6 +5,7 @@ slug: the-magic-bullet
 status: publish
 title: The magic bullet
 wpid: '132'
+- ogr
 ---
 
 Dealing with corrupted shapefiles can be a painful experience: programs crash for seemingly no reason, attribute tables get screwy, features get lost, queries results don't look right and ArcGIS processing tools fail with mysterious error codes:

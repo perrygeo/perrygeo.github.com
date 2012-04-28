@@ -6,6 +6,12 @@ status: publish
 title: Working with mbtiles in python
 tldr: Python code for working with mbtiles databases
 wpid: '163'
+tags:
+- mbtiles
+- utfgrid
+- tilestream
+- python
+- tornado
 ---
 
 [python-mbtiles](https://github.com/perrygeo/python-mbtiles). Check it out.

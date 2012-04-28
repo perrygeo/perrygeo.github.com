@@ -5,11 +5,11 @@ slug: a-quick-cython-introduction
 status: publish
 title: A quick Cython introduction
 wpid: '116'
-tag:
-- C
+tags:
+- c
 - cython
 - programming
-- Python
+- python
 ---
 
 I love python for its beautiful code and practicality. But it's not going to win a [pure speed race](http://shootout.alioth.debian.org/debian/benchmark.php?test=all&lang=python&lang2=gcc) with most languages. Most people think of speed and ease-of-use as polar opposites - probably because they remember the pain of writing C. [Cython](http://www.cython.org/) tries to eliminate that duality and lets you have python syntax with C data types and functions - the best of both worlds. Keeping in mind that I'm by no means an expert at this, here are my notes based on my first real experiment with Cython:

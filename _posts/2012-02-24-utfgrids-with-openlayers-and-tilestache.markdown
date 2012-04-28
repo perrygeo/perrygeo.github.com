@@ -5,6 +5,10 @@ slug: utfgrids-with-openlayers-and-tilestache
 status: publish
 title: UTFGrids with OpenLayers and Tilestache
 wpid: '160'
+tags:
+- utfgrid
+- openlayers
+- tilestache
 ---
 
 A while back, the Development Seed team developed the [UTFGrid spec](http://mapbox.com/mbtiles-spec/utfgrid/) to provide

@@ -5,6 +5,10 @@ slug: average-aspect
 status: publish
 title: Average Aspect
 wpid: '162'
+tags:
+- dem
+- trig
+- gdal
 ---
 
 Ever try to figure out what the average aspect of an area is? i.e. 

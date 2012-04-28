@@ -5,6 +5,9 @@ slug: marinemap-wins-award-for-environmental-conflict-resolution
 status: publish
 title: MarineMap wins award for Environmental Conflict Resolution
 wpid: '148'
+tags:
+- marinemap
+- edss
 ---
 
 For the last year or so, I've had the pleasure of working with the [MarineMap Consortium](http://www.marinemap.org). We just learned yesterday that the U.S. Institute for Environmental Conflict Resolution [awarded](http://eon.businesswire.com/portal/site/eon/permalink/?ndmViewId=news_view&newsId=20100526007072&newsLang=en) MarineMap the “Innovation in Technology and Environmental Conflict Resolution”.

@@ -5,11 +5,12 @@ slug: working-hard-for-some-rest
 status: publish
 title: Working hard for some REST
 wpid: '111'
-tag:
-- AJAX
+tags:
+- ajax
 - django
-- REST
+- rest
 - web.py
+- python
 ---
 
 I don't spend much time with web programming these days but I decided to give [web.py](http://webpy.org/) (the minimalist python web framework) a shot and, while I was at it, try implementing a simple REST api.

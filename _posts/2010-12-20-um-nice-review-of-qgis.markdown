@@ -5,6 +5,8 @@ slug: um-nice-review-of-qgis
 status: publish
 title: Um - nice “review” of QGIS
 wpid: '151'
+tags:
+- qgis
 ---
 
 RJ Zimmer at American Surveyor magazine did what he described as a comparison of several free GIS application entitled "[Something for Nothing](http://www.amerisurv.com/PDF/TheAmericanSurveyor_Zimmer-SomethingForNothing_Vol7No8.pdf)"

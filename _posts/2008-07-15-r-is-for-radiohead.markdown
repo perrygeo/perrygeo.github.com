@@ -5,6 +5,9 @@ slug: r-is-for-radiohead
 status: publish
 title: R is for Radiohead
 wpid: '128'
+tags:
+- r
+- lidar
 ---
 
 Radiohead realeased their video for [House of Cards](http://code.google.com/creative/radiohead/) yesterday. Besides being a big radiohead fan, I was also loving the [LIDAR ](http://www.velodyne.com/lidar/)[technology ](http://www.geometricinformatics.com/)behind the video. 

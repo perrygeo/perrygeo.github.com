@@ -5,6 +5,10 @@ slug: kmltree
 status: publish
 title: kmltree
 wpid: '149'
+tags:
+- marinemap
+- kmltree
+- kml
 ---
 
 When the [MarineMap](http://marinemap.org) team started delving into the [Google Earth plugin](http://earth.google.com/plugin/), it was apparent that it supported the display and rendering of KML files _almost_ as well as the Google Earth desktop application. The missing piece of functionality was the nice tree-style legend that is provided with the desktop app. The plugin lets you add KML for display but gives you no HTML interface to work with it. For simple apps, you can just roll your own html/js form. But that quickly becomes unmanageable if you're adding KML dynamically and need to create a tree-style legend for any arbitrary KML document. 

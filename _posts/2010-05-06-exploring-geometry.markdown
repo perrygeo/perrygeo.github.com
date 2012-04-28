@@ -5,6 +5,8 @@ slug: exploring-geometry
 status: publish
 title: Exploring Geometry
 wpid: '143'
+tags:
+- jts
 ---
 
 I don't know how I let this gem slip past my radar for so long. It was only via [a post by Dr. JTS](http://lin-ear-th-inking.blogspot.com/2010/05/random-points-in-polygon-in-jts.html) himself (aka Martin Davis) that I saw a screenshot of JTS TestBuilder and decided to check it out. 

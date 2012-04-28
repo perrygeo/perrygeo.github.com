@@ -5,6 +5,9 @@ slug: tv-cycling-coverage-is-dead
 status: publish
 title: TV cycling coverage is dead
 wpid: '131'
+tags:
+- cycling
+- interface
 ---
 
 Real-time spatial application developers take note...

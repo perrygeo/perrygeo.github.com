@@ -5,6 +5,10 @@ slug: optimizing-kml-for-hierarchical-polygon-data
 status: publish
 title: Optimizing KML for hierarchical polygon data
 wpid: '152'
+tags:
+- hydrology
+- kml
+- python
 ---
 
 For all the benefits of KML, it is decidedly a step backwards for handling large vector datasets. Most KML clients, including the cannonical Google Earth application, experience debilitating slow-down when viewing a couple dozen MB of vector data - datasets that I could easily open on a Pentium 4 in ArcView 3.2 10 years ago! 

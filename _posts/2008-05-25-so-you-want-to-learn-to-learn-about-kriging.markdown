@@ -5,6 +5,9 @@ slug: so-you-want-to-learn-to-learn-about-kriging
 status: publish
 title: So you want to learn to learn about kriging …
 wpid: '122'
+tags:
+- geostatistics
+- kriging
 ---
 
 Guides like [Tomislav Hengl's](http://spatial-analyst.net/) [Practical Guide to Geostatistical Mapping of Environmental Variables](http://eusoils.jrc.it/ESDB_Archive/eusoils_docs/other/EUR22904en.pdf) and Rossiter's [Introduction to applied geostatistics](http://www.itc.nl/~rossiter/teach/stats/ssi_short.pdf) do an excellent job of providing a grounded, relatively easy to understand, introduction to geostatical prediction and kriging.

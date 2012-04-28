@@ -5,6 +5,8 @@ slug: lazy-raster-processing-with-gdal-vrts
 status: publish
 title: Lazy raster processing with GDAL VRTs
 wpid: '141'
+- dem
+- gdal
 ---
 
 No, not lazy as in REST :-) ... Lazy as in "[Lazy evaluation](http://en.wikipedia.org/wiki/Lazy_evaluation)":
