@@ -45,7 +45,6 @@ The best way to experiment with this is to bring the tissot.shp file into ArcMap
 OK, now for the geeky part. Here's the python/OGR script used to create the tissot shapefile. The basic process is to lay out a grid of points across the globe in latlong, loop through the points and reproject each one to an orthographic projection centered directly on the point, buffer it, then reproject to latlong. The end result is a latlong shapefile representing circles of equal area on a globe.
 
 
-```python
      #!/usr/bin/env python
      # Tissot Circles
      # Represent perfect circles of equal area on a globe
@@ -93,4 +92,3 @@ OK, now for the geeky part. Here's the python/OGR script used to create the tiss
              f.Destroy()
      
      ds.Destroy()
-```

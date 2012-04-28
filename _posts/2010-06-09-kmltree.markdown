@@ -16,8 +16,7 @@ When the [MarineMap](http://marinemap.org) team started delving into the [Google
 Enter [kmltree](http://code.google.com/p/kmltree/). 
 
 
-> 
-kmltree is a javascript tree widget that can be used in conjunction with the Google Earth API. It replicates the functionality of the Google Earth desktop client, and is fast, extensible, and stable for use in advanced web applications. It's built utilizing the earth-api-utility-library and jQuery. 
+> kmltree is a javascript tree widget that can be used in conjunction with the Google Earth API. It replicates the functionality of the Google Earth desktop client, and is fast, extensible, and stable for use in advanced web applications. It's built utilizing the earth-api-utility-library and jQuery. 
 
 
 

@@ -12,7 +12,7 @@ tags:
 
 For the last year or so, I've had the pleasure of working with the [MarineMap Consortium](http://www.marinemap.org). We just learned yesterday that the U.S. Institute for Environmental Conflict Resolution [awarded](http://eon.businesswire.com/portal/site/eon/permalink/?ndmViewId=news_view&newsId=20100526007072&newsLang=en) MarineMap the “Innovation in Technology and Environmental Conflict Resolution”.
 
-
+<iframe width="560" height="315" src="http://www.youtube.com/embed/GCUxpnUSiUg" frameborder="0"> x</iframe>
 
 I joined the team after the launch of the [South Coast of California](http://southcoast.marinemap.org/marinemap/) site which was already widely recognized as a successful decision-support tool for marine spatial planning. We've since been working on version 2 of the MarineMap tool which is deployed currently for the [North Coast of California](http://northcoast.marinemap.org/marinemap) in support of their Marine Life Protection Act (MLPA) process. 
 
