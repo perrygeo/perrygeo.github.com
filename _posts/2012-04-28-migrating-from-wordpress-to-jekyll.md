@@ -20,6 +20,7 @@ to a static-file [jekyll bootstrap](http://jekyllbootstrap.com/) site (hosted by
 3. Markdown is a great language for quickly banging out blog posts.
 4. Static files just make sense for what is basically static content.
 5. Github pages provides the hosting for me and even handles CNAMEs for DNS.
+6. Version managing with `git`.
 
 ### The conversion process
 
