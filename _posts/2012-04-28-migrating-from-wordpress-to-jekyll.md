@@ -11,7 +11,7 @@ tags:
 {% include JB/setup %}
 
 I just switched this blog from an ancient version of wordpress running on a VPS 
-to a static-file [jekyll bootstrap](http://jekyllbootstrap.com/) site (hosted by [github](http://github.com)). Let me know if experience any wierdness on the site or feeds. I've taken good measures to make sure links don't break (old URLS should get a 301 permanent redirect to blog.perrygeo.net) but let me know if you get any 404s.
+to a static-file [jekyll bootstrap](http://jekyllbootstrap.com/) site (hosted by [github](http://github.com/perrygeo/perrygeo.github.com)). Let me know if experience any wierdness on the site or feeds. I've taken good measures to make sure links don't break (old URLS should get a 301 permanent redirect to blog.perrygeo.net) but let me know if you get any 404s.
 
 ### So why do it? 
 

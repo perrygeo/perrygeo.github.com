@@ -5,6 +5,7 @@ slug: the-magic-bullet
 status: publish
 title: The magic bullet
 wpid: '132'
+tags:
 - ogr
 ---
 
@@ -15,12 +16,8 @@ Dealing with corrupted shapefiles can be a painful experience: programs crash fo
 Never fear, OGR is here. The magic bullet for fixing corrupted shapefiles is, 90% of the time, accomplished by using ogr2ogr to convert the shapefile to another shapefile. 
 
 
-`
 
-> 
-ogr2ogr -f "ESRI Shapefile"  shiny_new_clean_dataset.shp corrupted_dataset.shp corrupted_dataset
-
-`
+    ogr2ogr -f "ESRI Shapefile"  shiny_new_clean_dataset.shp corrupted_dataset.shp corrupted_dataset
 
 
 

@@ -5,11 +5,12 @@ slug: shell-history-why-not
 status: publish
 title: Shell history - Why not?
 wpid: '112'
+tags:
+- unix
 ---
 
 What an odd meme .. I don't know why but I expected some more interesting results. I guess the majority of the commands I use are pretty pedestrian.
 
-`
     
     
     history|awk '{a[$2]++ } END{for(i in a){print a[i] " " i}}'|sort -rn|head
@@ -25,6 +26,5 @@ What an odd meme .. I don't know why but I expected some more interesting result
     4 htop
     
 
-`
 
 

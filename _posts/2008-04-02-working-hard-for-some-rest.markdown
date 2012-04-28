@@ -19,10 +19,6 @@ First of all, web.py is truly everything it claims to be - small, light and easy
 
 Back to the REST side of things. So I created a url-mapping to my "resources" or "nouns" and used the HTTP verbs (POST,GET,PUT,DELETE) to supply the interface. This was a joy to do in web.py which made it easy.
 
-`
-
-    
-    
     urls = ("/thing/(\d+)", "thing")
     ...
     class thing:
@@ -38,10 +34,6 @@ Back to the REST side of things. So I created a url-mapping to my "resources" or
         def PUT(self, thingid):
             # use cgi args to run update query on specified thing
             ....
-    
-
-
-`
 
 The hard part came when I realized that HTML forms do not implement DELETE or PUT methods! 2 of the 4 cornerstone HTTP verbs are not implemented in HTML forms? 
 
