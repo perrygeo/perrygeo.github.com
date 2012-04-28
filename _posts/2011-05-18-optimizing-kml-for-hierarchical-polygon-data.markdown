@@ -108,7 +108,7 @@ The advantages to this design are that you don't have to break the geometries up
 
 Here's a video of it in action:
 
-
+<iframe width="420" height="315" src="http://www.youtube.com/embed/5FgOfLEVX8M" frameborder="0">iframecontent</iframe>
 
 This was all done with [a fairly "hackish" python script](http://watershed-priorities.googlecode.com/hg/util/kml_regionate_heirarchy.py). I'll continue to refine it as needed for this particular application but, at this time, it's not intended to be a reusable tool - if you want to use it, be prepared to dig through the source code and get your hands dirty. The same concept could theoretically be applied to any spatially-hierarchical vector data (think geographic boundaries ... country > state > county > city).
 
