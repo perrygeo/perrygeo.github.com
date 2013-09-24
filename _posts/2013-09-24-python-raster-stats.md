@@ -201,3 +201,5 @@ a lush green landscape, the majority land cover class (#8) is "Temperate or sub-
 polar shrubland" at 2.27m pixels out of 4 millions total.
 
 
+There's a lot more functionality that isn't covered in this post but you get the 
+picture... please check it out and let me know what you think. 
