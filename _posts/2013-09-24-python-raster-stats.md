@@ -8,10 +8,8 @@ tags:
 - zonal
 - raster
 - vector
-- geo_interface
+- geointerface
 ---
-{% include JB/setup %}
-
 
 A common task in many of my data workflows involves summarizing geospatial
 raster datasets based on vector geometries (i.e. zonal statistics). Despite many
