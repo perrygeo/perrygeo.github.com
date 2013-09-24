@@ -37,7 +37,7 @@ Setup is not too terrible:
   5. Set your CLASSPATH variable to /opt/wwj/worldwind.jar
 
  
-  6. Run _jython wwj_demo.py_
+  6. Run `jython wwj_demo.py`
 
 
 

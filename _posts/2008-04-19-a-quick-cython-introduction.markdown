@@ -188,7 +188,7 @@ _c3.pyx_
 
 
 
-Notice that we still have a python function wrapper (_def_) which takes an extra argument, num. The looping is done inside this function with `for i from 0 < = i < num:` instead of the more pythonic but slower ``for i in range(num):`. The actual work is done in a C function (_cdef_) which returns float type. This runs in **0.2 seconds** - a 10x speed boost over the original python function. 
+Notice that we still have a python function wrapper (_def_) which takes an extra argument, num. The looping is done inside this function with `for i from 0 < = i < num:` instead of the more pythonic but slower `for i in range(num):`. The actual work is done in a C function (_cdef_) which returns float type. This runs in **0.2 seconds** - a 10x speed boost over the original python function. 
 
 Just to confirm that we're doing things optimally, lets write a little app in pure C and time it:
 

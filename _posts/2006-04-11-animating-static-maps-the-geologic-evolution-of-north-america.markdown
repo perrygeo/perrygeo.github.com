@@ -28,25 +28,18 @@ Now it occured to me that a time series of maps lends itself very well to an ani
 
   4. run the _convert_ command to create the animated gif:
 
+```
+convert -geometry 500x483 -delay 200 -loop 0 *.jpg mymovie.gif
+```
 
 
+The geometry is simply the WIDTHxHEIGHT dimensions of the output image (it helps if this is proportional to the original image dimensions). 
 
-> 
+The delay parameter specifies how many hundreths of a second delay occurs between each frame. 
 
->     
->     
->     convert -geometry 500x483 -delay 200 -loop 0 *.jpg mymovie.gif
->     
+The loop parameter, when set to zero, indicates the gif will loop infinitely.
 
-
-
-  The geometry is simply the WIDTHxHEIGHT dimensions of the output image (it helps if this is proportional to the original image dimensions). 
-
-  The delay parameter specifies how many hundreths of a second delay occurs between each frame. 
-
-  The loop parameter, when set to zero, indicates the gif will loop infinitely.
-
-  The *.jpg, if your operating environment supports wildcards, will take each of the jpg images in the current directory and stich them into an animated gif named mymovie.gif
+The \*.jpg, if your operating environment supports wildcards, will take each of the jpg images in the current directory and stich them into an animated gif named mymovie.gif
 
 
 

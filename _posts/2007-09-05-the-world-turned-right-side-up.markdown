@@ -11,21 +11,21 @@ I've been working alot in [Surfer](http://www.goldensoftware.com/products/surfer
 
 
 
-> C:\Workspace\Temp\interpolation>gdalinfo svpce_5.grd
-Driver: GS7BG/Golden Software 7 Binary Grid (.grd)
-Files: svpce_5.grd
-Size is 555, 339
-Coordinate System is `'
-Origin = (383371.000000000000000,3764907.000000000000000)
-Pixel Size = (0.500000000000000,0.500000000000000)
-Corner Coordinates:
-**Upper **Left  (  383371.000, **3764907.000**)
-**Lower **Left  (  383371.000, **3765076.500**)
-Upper Right (  383648.500, 3764907.000)
-Lower Right (  383648.500, 3765076.500)
-Center      (  383509.750, 3764991.750)
-Band 1 Block=555x1 Type=Float64, ColorInterp=Undefined
- NoData Value=1.70141e+038
+    > C:\Workspace\Temp\interpolation>gdalinfo svpce_5.grd
+    Driver: GS7BG/Golden Software 7 Binary Grid (.grd)
+    Files: svpce_5.grd
+    Size is 555, 339
+    Coordinate System is `'
+    Origin = (383371.000000000000000,3764907.000000000000000)
+    Pixel Size = (0.500000000000000,0.500000000000000)
+    Corner Coordinates:
+    Upper Left  (  383371.000, 3764907.000)
+    Lower Left  (  383371.000, 3765076.500)
+    Upper Right (  383648.500, 3764907.000)
+    Lower Right (  383648.500, 3765076.500)
+    Center      (  383509.750, 3764991.750)
+    Band 1 Block=555x1 Type=Float64, ColorInterp=Undefined
+     NoData Value=1.70141e+038
 
 
 

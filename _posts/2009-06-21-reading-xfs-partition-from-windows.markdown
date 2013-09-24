@@ -35,13 +35,10 @@ So how do you access your files from Windows if they are on an XFS partition? I 
 
 
 Once completed, you should see:
-_
     
     
     RAW host disk access VMDK file 
     C:\Documents and Settings\perry\.VirtualBox\HardDisks\Physical1.vmdk created successfully.
-
-_
 
 7) Make sure to add the physical drive to your list of hard drives in the linux guest options. Restart the linux guest virtual machine and your XFS partition should already be mounted. Now you can begin transfering files between your XFS partition and the shared folder on the windows host.
 

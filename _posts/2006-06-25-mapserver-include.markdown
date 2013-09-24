@@ -50,4 +50,4 @@ While Mapserver has no concept of an "include", the C preprocessor (cpp) does. T
 
 
 
-The next step would be to script the preprocessing of _all_ your mapfiles so that changing a layer definition in multiple mapfiles was as simple as changing the *.layer file and running the script. 
+The next step would be to script the preprocessing of _all_ your mapfiles so that changing a layer definition in multiple mapfiles was as simple as changing the \*.layer file and running the script. 

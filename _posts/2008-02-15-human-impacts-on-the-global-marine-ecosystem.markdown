@@ -19,7 +19,7 @@ The media has picked up on the story with [NPR](http://www.npr.org/templates/sto
 
 So congratulations to everyone who made this happen! 
 
-_ [1] Benjamin S. Halpern, Shaun Walbridge, Kimberly A. Selkoe, Carrie V. Kappel, Fiorenza Micheli, Caterina D'Agrosa, John F. Bruno, Kenneth S. Casey, Colin Ebert, Helen E. Fox, Rod Fujita, Dennis Heinemann, Hunter S. Lenihan, Elizabeth M.P. Madin, Matthew T. Perry, Elizabeth R. Selig, Mark Spalding, Robert Steneck, Reg Watson (2008). A global map of human impact on marine ecosystems. Science, vol. 319 _
+*[1] Benjamin S. Halpern, Shaun Walbridge, Kimberly A. Selkoe, Carrie V. Kappel, Fiorenza Micheli, Caterina D'Agrosa, John F. Bruno, Kenneth S. Casey, Colin Ebert, Helen E. Fox, Rod Fujita, Dennis Heinemann, Hunter S. Lenihan, Elizabeth M.P. Madin, Matthew T. Perry, Elizabeth R. Selig, Mark Spalding, Robert Steneck, Reg Watson (2008). A global map of human impact on marine ecosystems. Science, vol. 319*
 
 
 

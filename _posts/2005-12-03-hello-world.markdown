@@ -24,8 +24,7 @@ Change to the US5CA65M directory and you'll see a .000 file (and maybe .001, .00
 
 
 
-> 
-ogrinfo -summary US5CA65M.000 SOUNDG
+    ogrinfo -summary US5CA65M.000 SOUNDG
 
 
 
@@ -37,8 +36,8 @@ We see that there are 43 "features" but since the features are multipoints, ther
 
 
 
-> export OGR_S57_OPTIONS="RETURN_PRIMITIVES=ON,RETURN_LINKAGES=ON,LNAM_REFS=ON,SPLIT_MULTIPOINT=ON,ADD_SOUNDG_DEPTH=ON" 
-ogr2ogr -nlt POINT25d test3.shp US5CA65M.000 SOUNDG
+    export OGR_S57_OPTIONS="RETURN_PRIMITIVES=ON,RETURN_LINKAGES=ON,LNAM_REFS=ON,SPLIT_MULTIPOINT=ON,ADD_SOUNDG_DEPTH=ON" 
+    ogr2ogr -nlt POINT25d test3.shp US5CA65M.000 SOUNDG
 
 
 
@@ -52,12 +51,11 @@ Now bring these into grass and create a raster:
 
 
 
-> 
-v.in.ogr -zo dsn=test3.shp output=soundg layer=test3
-v.info soundg
-g.region vect=soundg nsres=0.001 ewres=0.001
-v.surf.rst input=soundg elev=bathy layer=0
-r.info bathy
+    v.in.ogr -zo dsn=test3.shp output=soundg layer=test3
+    v.info soundg
+    g.region vect=soundg nsres=0.001 ewres=0.001
+    v.surf.rst input=soundg elev=bathy layer=0
+    r.info bathy
 
 
 
@@ -69,8 +67,7 @@ since depths actually show up as positive elevations, we want to multiply the gr
 
 
 
-> 
-r.mapcalc sb_bathy=bathy*-1
+    r.mapcalc sb_bathy=bathy*-1
 
 
 
@@ -83,9 +80,9 @@ And of course we want to make some nice shaded relief and contour maps for viewi
 
 
 
-> r.shaded.relief map=sb_bathy shadedmap=sb_shade altitude=45 azimuth=315
-r.contour input=sb_bathy output=sb_contour step=5
-qgis &
+    r.shaded.relief map=sb_bathy shadedmap=sb_shade altitude=45 azimuth=315
+    r.contour input=sb_bathy output=sb_contour step=5
+    qgis &
 
 
 

@@ -59,15 +59,11 @@ Now that we've satisfied the demands of our proprietary license overlords, we ca
     print lyr.Filename
 
 
-
-_
     
     The Layer object has an Open method but....
     Traceback (most recent call last):
      File "<stdin>", line 1, in <module>
     AttributeError: 'GenericComObject' object has no attribute 'Open'</module></stdin>
-
-_
 
 
 Hrm. Looks like we've run across [bug 1506](http://www.codeplex.com/IronPython/WorkItem/View.aspx?WorkItemId=1506) which doesn't allow access to the properties and methods of a given instance - instead your have to work through the functions provided by the implementation. Grr...

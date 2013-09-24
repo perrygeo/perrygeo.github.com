@@ -31,7 +31,7 @@ This gives a raster with values in degrees: 0 is north, 90 is east, 180 is south
 
 For example, take a nearly North facing hillside; the left edge is facing slightly NW (350 degrees) while the right edge faces slighty NE (10 degrees).
 
-The arithmetic mean of the aspect values = (350+350+10+10)/4 = 180°. Due south? That's entirely wrong! It doesn't take into account the angular units. For that we need to create grids representing the _sin_ and _cos_ of the aspect. 
+The arithmetic mean of the aspect values = `(350+350+10+10)/4 = 180°`. Due south? That's entirely wrong! It doesn't take into account the angular units. For that we need to create grids representing the _sin_ and _cos_ of the aspect. 
 
 Luckily you can use the handy [gdal_calc.py](http://svn.osgeo.org/gdal/trunk/gdal/swig/python/scripts/gdal_calc.py) utility that comes with recent versions of gdal. This allows you to apply numpy's trigonometric functions to a raster...
 

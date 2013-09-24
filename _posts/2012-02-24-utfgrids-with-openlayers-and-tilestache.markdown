@@ -13,8 +13,6 @@ tags:
 
 A while back, the Development Seed team developed the [UTFGrid spec](http://mapbox.com/mbtiles-spec/utfgrid/) to provide
 
-
-
 > a standard, scalable way of encoding data for hundreds or thousands of features alongside your map tiles.
 
 
@@ -193,7 +191,6 @@ The result was a new OpenLayers Layer which loads up the json "tiles" behind the
 
 
 and an OpenLayers Control that handles how the mouse events interact with the grid. In this example, as the mouse moves over the map, a custom callback if fired off which updates a div with some attribute information.
-`
     
     
            var callback = function(attributes) {
@@ -215,8 +212,6 @@ and an OpenLayers Control that handles how the mouse events interact with the gr
             });
             map.addControl(control);
     
-
-`
             
 Overall the design goal was to decouple the loading/tiling of the UTFGrids from the interactivity/control. I think this works out nicely and, while a bit more cumbersome than the method used by Wax, it is more flexible and integrates well with existing OpenLayers apps. 
 
@@ -236,7 +231,4 @@ You can see them in action on the examples pages:
 And feel free to check out the code at [my github fork](https://github.com/perrygeo/openlayers/tree/utfgrid) for the code. 
 
 What do you think? Let me know...
-
-
-
 

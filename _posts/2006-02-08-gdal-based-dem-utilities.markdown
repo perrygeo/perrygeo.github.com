@@ -25,16 +25,11 @@ Not having found anything that fit the bill, I decided to port some of the commo
 
 
 
-I built these utilities on Ubuntu Linux. I admittedly have no idea how to compile them on Windows but some folks have confirmed that the hillshade code compiles under VC++. So to get these running under Linux (and presumably other *nixes), there are very minimal requirements:
-
-
-
+I built these utilities on Ubuntu Linux. I admittedly have no idea how to compile them on Windows but some folks have confirmed that the hillshade code compiles under VC++. So to get these running under Linux (and presumably other unixes), there are very minimal requirements
 
  
-  1. GDAL shared libraries  
-
- 
-  2. GNU C++ Compiler
+1. GDAL shared libraries  
+2. GNU C++ Compiler
 
 
 

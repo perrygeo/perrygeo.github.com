@@ -9,7 +9,7 @@ wpid: '49'
 
 A few months ago, [ Mapnik](http://mapnik.org/) came onto my radar and I was immediately impressed with the [beautiful](http://mapnik.org/maps/) [cartography](http://static.flickr.com/35/106561736_afcdc30ddb_o.png). But, until recently, it was just a C++ libary with some python bindings that could be used to programmatically build nice map images from shapfiles, geotiffs or postgis layers. There were no common interfaces such as WMS to access mapnik... until last month. Jean Francois Doyon recently added [a prototype WMS interface](http://mapnik.org/news/2006/apr/18/wms/) to Mapnik. It runs as a fastcgi script under apache. It is still a bit rough around the edges but the result is well worth a little extra setup effort. 
 
-I set up Mapnik as a WMS server recently and would like to share my process and results. This tutorial assumes you already have python, postgresql/postgis, proj4, python imaging library and apache2 already running. The examples are for Ubuntu Dapper Drake.. they may work well on other versions of Ubuntu and Debian but for other *nixes (and certainly windows) many things may need to be tweaked.
+I set up Mapnik as a WMS server recently and would like to share my process and results. This tutorial assumes you already have python, postgresql/postgis, proj4, python imaging library and apache2 already running. The examples are for Ubuntu Dapper Drake.. they may work well on other versions of Ubuntu and Debian but for other unixes (and certainly windows) many things may need to be tweaked.
 
 First off, we have to install the base mapnik libs. These depend on the boost python bindings and the whole compile process is very simple (if a bit slow) in Ubuntu:
 

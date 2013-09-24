@@ -35,7 +35,10 @@ Now **drive/bike/walk around** for a bit with your laptop and gps unit. When you
 
   5. 
  The main kismet log is an xml file containing all the info on the available wireless networks including their SSID, their encryption sheme, transfer rater and their geographic position via gpsd. I worked up a small python script, [kismet2kml.py](http://perrygeo.googlecode.com/svn/trunk/gis-bin/kismet2kml.py) (based on a blog entry at [jkx@Home](http://www.larsen-b.com/Article/204.html)), to **parse the logfile into a KML file** for use with Google Earth. It could certainly use some tweaking but it's a start. To run it, give it the kismet logfile and pipe the output to a kml file:  
-_ kismet2kml.py kismet-log-Jul-03-2006-1.xml > wardrive.kml _
+
+```
+kismet2kml.py kismet-log-Jul-03-2006-1.xml > wardrive.kml
+```
 
 
   6. 
