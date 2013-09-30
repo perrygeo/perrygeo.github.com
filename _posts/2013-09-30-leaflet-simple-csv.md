@@ -66,4 +66,4 @@ Many of the features included here (clustering, filtering) are useful enough
 to apply to most situations and hopefully you'll find it useful.
 
 <hr>
-<div><iframe src="assets/leaflet-simple-csv/index.html" height="450" width="900"></iframe></div>
+<div><iframe src="/assets/leaflet-simple-csv/index.html" height="450" width="900"></iframe></div>
