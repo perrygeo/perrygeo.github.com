@@ -34,7 +34,7 @@ So I set out to create a solution using numpy, GDAL and python. The
 Let's jump into an example. I've got a polygon shapefile of continental US
 *state boundaries* and a raster dataset of *annual precipitation* from the
 [North American Environmental
-Atlas](http://www.cec.org/Page.asp?PageID=924&ContentID=2336).
+Atlas](http://www.cec.org/Page.asp?PageID=924&amp;ContentID=2336).
 
 ![states_precip](/assets/img/states_precip.jpeg)
 
