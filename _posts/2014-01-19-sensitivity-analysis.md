@@ -67,7 +67,7 @@ In this case, we interpret the output as follows:
     mortviab     0.01  +- 0.007 (weak influence)
     mortelev     0.007 +- 0.006 (weak influence)
 
-We can graph each of the input parameters against the results to see this graphically:
+We can graph each of the input parameters against the results to visualize this:
 
 ![sagraph](/assets/img/sagraph.png)
 
