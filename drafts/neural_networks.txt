@@ -1,0 +1,10 @@
+[Neural network’s] advantage over classical statistical models used to analyze data, such as regression and ANOVA, is that they can fit data where the relationship between independent and dependent variables is nonlinear and where the specific form of the nonlinear relationship is unknown.
+
+
+The output of a neural network is a predicted value and some goodness-of-fit statistics. However, the functional form of the relationship between independent and dependent variables is not made explicit
+
+… http://www.contingencies.org/novdec01/workshop.pdf
+
+PyBrain
+
+

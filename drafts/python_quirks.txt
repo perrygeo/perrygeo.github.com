@@ -1,0 +1,50 @@
+Python quirks
+
+###########################
+>>> a = [1,2]
+>>> b = a
+>>> a += b
+>>> a
+[1, 2, 1, 2]
+>>> b
+[1, 2, 1, 2]
+
+>>> a = [1,2]
+>>> b = a
+>>> a = a + b
+>>> a
+[1, 2, 1, 2]
+>>> b
+[1, 2]
+
+##### http://blog.brush.co.nz/2008/01/ten-python-quirkies/#comment-1305 ######
+
+>>> a==b
+True
+>>> a+b
+2
+
+>>> str(a)==str(b)
+False     
+>>> a
+1
+>>> b
+True
+
+>>> a,b = {},{}
+>>> a[True], b[1] = 1, 1
+>>> a[1] , b[True] = 42, 42
+>>> a, b
+({True:42}, {1:42})
+
+
+>>> a = 256
+>>> a is 256
+True
+>>> b = 257
+>>> b is 257
+False
+# Hint: do not use is on the built-in immutable types because of interning
+
+
+

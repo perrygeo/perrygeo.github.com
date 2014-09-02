@@ -1,0 +1,58 @@
+[] veg height and canopy metrics, 
+[] gridding raw lidar point data
+    - extract ground data and construct dem
+    - map canopy attrs (see lascanopy), first normalize heights to ground
+       canopy height models (CHMs) (max - DEM)
+       tree segmentation algorithms, and direct point cloud segmentation to extract tree location, crown size, and tree height.
+       intensity metrics, canopy cover, LAI and gap fraction
+       laser penetration metrics
+    - metrics from both heights and intensity
+        minimum
+        maximum
+        range
+        mean
+        average absolute deviation
+        median absolute deviation
+        standard deviation
+        variance
+        skewness
+        kurtosis
+        coefficient of variation
+        5th percentile
+        10th percentile
+        25th percentile
+        50th percentile (median)
+        75th percentile
+        90th percentile
+        95th percentile
+        interquartile range
+[] DEM attrs 
+    Topographic Solar Radiation Aspect Index
+
+[] lidar-based flow routing with python-grass script
+[x] Lidar software:
+[] Lidar procs
+
+    # Assume you've already classified ground points as class 2
+    # If not, use mcclidar or lasground
+    mcc-lidar -s 1.5 -t 0.3 subset.las \
+        subset_postmcc_s1.5_t0.3.las -c 5 subset_surface_s1.5_t0.3.asc
+    # OR
+    lasground -i lidar.las -o lidar_with_bare_earth.las -city
+
+    # Normalize height
+    wine ~/Desktop/lastools/bin/lasheight.exe \
+         -i all_points.las \
+         -replace_z \
+         -o all_groundheight.las
+
+    wine /opt/lastools/bin/lascanopy.exe \
+        -i all_groundheight.las \
+        -p 5 10 25 50 75 90 -min -max -std -avg -kur -ske -cov -dns -b 50 75 \
+        -d 1 5 20 50 100 -height_cutoff 1.0
+        # once you know the ranges, 
+        # try binning with -c 1 5 20 50 100 OR -d 1 5 20 50 100
+
+    >> lasclassify -i lidar_with_heights.las -o lidar_classified.las
+
+
