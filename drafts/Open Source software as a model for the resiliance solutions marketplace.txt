@@ -1,0 +1,21 @@
+﻿Starts with someone developing their own solution. Shares that solution with the world. Realizes that proprietary “Intellectual Property” would slow adoption, open source will:
+* get feedback
+* get collaborators
+* Innovative but acknowledges the works of others that came before. 
+* scale it beyond the capacity of the original creator
+* allows solution to propagate and mutate independently of the original “brand name”
+   * disadvantage: can’t control or restrict use for monetization.
+   * advantage: higher uptake, massive scaling, leveraging unforeseen adjacent possibilities
+* less focus on sales; proof is in the pudding, merit-based
+* encourages acknowledging shortcomings and transparency
+* licensing: copyleft (protects ideas from becoming proprietary) vs permissive (protects authors from liability and restrictions)
+* establish author as an expert = potential consulting revenue
+
+
+Github specifically implements this 
+* forks
+* social: follow/star
+* pull-requests
+* tickets
+* comments
+* networks

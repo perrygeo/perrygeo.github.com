@@ -1,0 +1,7 @@
+﻿building a clients features into an existing tool is bound to do neither very well. There is always a compromise between maintaining the existing application and extending it to fit a particular user's needs.
+ 
+Look at application specific hooks in MS windows code: One one hand, the level of commitment to backwards compatibility is what made them successful. on the other hand, it's what prevents them from innovating.
+ 
+developing the functionality for the client is an entirely different endeavor than integrating that functionality with an exiting application.
+ 
+along the lineage of an application lifetime, you have a commitment to maintaining existing functionality yet that commitment can constrain how much you can innovate on a particular topic. Better to branch, see what sticks, merge the best ideas from the branch (they;ve already been developed and tested, just need to be integrated).

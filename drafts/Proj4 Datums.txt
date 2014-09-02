@@ -1,0 +1,32 @@
+﻿While I agree that open source tools are totally capable with regard
+to datum shifts, this was not always the case a few years ago:
+
+
+http://fwarmerdam.blogspot.com/2010/03/in-last-few-weeks-i-believe-i-have-made.html
+
+
+
+tl;dr; It's more than just math - there are tradeoffs between
+different datum transforms that a  small percentage of users might
+really care about. PROJ.4 used to make some pretty dangerous
+assumptions about datum transformations and didn't allow you to select
+the datum transformation method. But the community was aware of the
+implications and now we've got the ability to choose a datum transform
+and have a sensible technique for determining defaults.
+
+
+Constrast that with ESRI's approach of choosing the default datum
+transform based on list order. For the NAD27 to WGS84 transform, it
+gives default to one of the absolute worst options as the first one in
+the list is only appropriate for the Caribbean and is horribly suited
+for most of North America! But there is little accessible
+documentation on which datum transforms are appropriate and why you
+would choose one over the other... so most users happily accept the
+default and produce data that is essentially garbage from the
+standpoint of coordinate accuracy.
+
+
+Ultimately I'll take the open source approach any day knowing that
+nothing is hidden; problems and assumption (like the proj.4 issue in
+Frank's blog post above) are completely out in the open and thus under
+your control.

@@ -1,0 +1,35 @@
+﻿Geographic Information Systems (aka GIS or spatial IT or whatever the buzzword of the month is to describe techniques for working with geospatial data) will always be associated with the **map**. An obvious visual representation of spatial data, the map provides a starting point for inspecting any dataset with a spatial component. And for some problems this is enough. But for others, a “GIS map” is  no more an appropriate end product than a simple “Excel chart”.  IOW, they are appropriate tools for initial exploration of your data but, if you stop there, if the map is your only end product, you are not looking hard enough at your data or it’s spatial/temporal relationships to other data.
+ 
+IOW
+
+
+**If you have data with a geographical component and the most interesting thing you can think to do with that data is to plop features on a map… you’re doing it wrong.**
+
+
+Or to put it in the words of one of my former colleagues:
+
+
+> Maps are the detritus of GIS
+
+
+Let’s pause and clear up three things:
+
+
+* this quote is not my own, it was a poignant phrase uttered by one my greatest professional influences who shall go unnamed as the inflammatory nature of the statement could easily be taken out of context. 
+
+
+* I’m not implying that maps are not useful. Sometime the map *is* the best way to communicate a dataset. But inherint in any map is two glaring features:
+    * inclusion of features which you feel are important
+    * exclusion of those that are not
+
+
+* I don’t intend to disparage the great discipline of cartography nor it’s more recent bastard child, web mapping. I have great respect for the art and science of visually representing geographic information. However, there are analytical techniques from GIScience, from various scientific disciplines, from mathematics and statistics and computer science that, when combined, which yield tremendously more value from your data than simply making a map.
+
+
+Let’s take one simple example:
+
+
+Points on a map.
+
+
+See the pattern? Probably not. Let’s look at it’s relationship with

@@ -1,0 +1,16 @@
+﻿Discrete optimization
+========================
+optimization problems
+NP complete
+- can check a solution quickly
+- can solve one -> can solve them all
+
+
+sports schedule, logistics of shipping, kidney donation, power restoration logistics, knapsack
+
+
+
+
+Constraint Programming
+Local Search
+Integer Programming

@@ -1,0 +1,22 @@
+﻿Doesn't matter how good your team is. You need time to step back and refactor, re-architect, every once in a while. 
+
+
+Depending on the scale of the project, [factors other than software development] won't become significant costs until you get some serious usage.
+
+
+Marketing and design will likely be your biggest expenses, and marketing is ongoing. If it were simply a matter of building a working product a lot more developers would be getting rich easy.
+
+
+Because go-live is the beginning, not the end.
+
+
+In reality, most web apps are never "done", they are constantly changing and growing. As they change and grow they get more and more complex, which greatly increases maintenance costs, QA costs, and bug fixing costs.
+
+
+You should assume that the dev work needed to continue the site is at least as big ($/month or year) as it currently is.
+
+
+In terms of hosting costs, you should count on $33 per year for every 100 users. This doesn't include staff time at all; it assumes you've already invested in systems for scaling, automated deployment, monitoring, backups, system maintenance procedures, etc.
+
+
+You're doomed to failure if you can't foresee any costs beyond software development.

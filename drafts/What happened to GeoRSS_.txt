@@ -1,0 +1,19 @@
+﻿(https://productforums.google.com/forum/?hl=en#!msg/maps/8oCdfU_oSNQ/_fJ1yla9yhsJ)[Google maps dropped GeoRSS support 2 years ago]
+
+
+(http://www.google.com/trends/explore#q=georss&cmpt=q)[trending in the downward direction]
+
+
+(http://www.geonames.org/rss-to-georss-converter.html)[RSS to GeoRSS “converter”] which attempts to parse out geographic locations from the article text. 
+
+
+We have the standard and an easy way of incorporating basic geospatial data into all common news syndications. 
+
+
+More opportunities for machine learning to automatically geocode? Or will it require a cultural shift in journalism to get people on board? 
+
+
+The USGS earthquake feed (the *only* working live example on the GeoRSS wikipedia page), is (http://earthquake.usgs.gov/earthquakes/catalogs/eqs7day-M5.xml)[deprecated].
+
+
+What else is out there? Anyone doing GeoRSS?

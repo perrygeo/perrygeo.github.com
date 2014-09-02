@@ -1,0 +1,2 @@
+﻿https://github.com/paulgb/runipy
+https://github.com/ipython/ipython/wiki/Cookbook%3a-Notebook-utilities

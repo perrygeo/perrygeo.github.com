@@ -1,0 +1,17 @@
+    my toolbox (daily, weekly essentials, honorable mentions)
+        ipython
+        ipdb
+        sublimetext
+        ansible
+        vagrant
+        scikit-learn
+        ogr/gdal
+        django
+        leaflet/openlayers
+        redis
+        qgis
+        spatialite
+        rasterio, shapely, rasterstats, geopandas, fiona
+        postgis
+        grass
+        saga

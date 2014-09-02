@@ -1,0 +1,99 @@
+﻿On Design and Technical Debt 
+There's a reason software developers use terms such as "system" and "design" borrowed
+from the disciplines of engineering and architecture. We "build" software and the 
+construction of the software must be guided by some specific goals. 
+
+
+Imagine if a bridge's design was completely reconfigured after construction had begun.
+You would either have to tear the entire bridge down and start from scratch OR you 
+would have to integrate the new design into what had already been built. Since the 
+original design might not have considered elements of the new bridge, you'd have to 
+retrofit the new design concepts on top of the old and end up with something that
+is probably barely passable but inferior to the intent of the new design. IOW you'd end
+up with gerry-rigged support beams, duct tape, mismatched parts and all sorts of scary
+structural weak points. 
+
+
+Now let's say the new bridge functions just fine for a while but then someone decides
+to add a streetcar line down the center lane. They look at the revised plans for the bridge
+and assume it would be possible. But the assumption doesn't consider that the gerry-rigged
+implementation of that late design change would require unwrapping some critical piece of duct 
+tape. In fact no one knows why the duct tape is there or what would happen if it 
+were removed but all the engineers agree that removing the duct tape may cause the bridge
+to collapse. But the duct tape needs to be removed - so they design a system involving more
+duct tape in order to keep the duct tape in place and accomodate the streetcar. 
+
+
+The new duct tape and the maintainence of the old duct tape take lots of time and 
+make any future repairs, maintenance or modifications much riskier and more costly.
+For simple tasks, more and more effort must be doled out to also ensure that all the duct tape 
+remains unaffected by the pothole repairs. 
+
+
+In economic terms, the decision to patch the bridge with duct tape represents a 
+loan; we didn't have to pay the full price of a bridge rebuild BUT we took on a 
+debt ("technical debt") that must be paid off. All the extra work required to maintain 
+the duct tape system is merely paying off interest on the loan. With occasional investments
+ of capital, you can pay down the principal on the loan but you quickly get underwater 
+ in loan payments so the capital is not forthcoming. It's easier to justify continuing to 
+ pay only the interest when paying the loan off in full seems so daunting. 
+
+
+So when do you just keep paying the interest and suck it up as an operational cost? 
+(continuing to patch the duct tape)
+
+
+When do you just contribute regular investments of capital in paying down the principle?
+(continuing to patch the duct tape and take incremental steps to assess, test and 
+ improve the underlying problems)
+
+
+And when do you simply pay off the debt with one lump sum?
+(rebuild the bridge from scratch)
+
+
+It all depends on the interest rate. 
+
+
+also: http://www.ontechnicaldebt.com/blog/visualizing-technical-debt/
+
+
+
+
+ *   ideas are cheap
+  *   initial complexity vs current complexity (scope grows)
+  *   as complexity grows, interactions grow exponentially
+  *   as interactions grow, time to manage them grows linearly but is
+repeated with every new feature.
+  *   automated testing, value, cost and limitation of
+  *   lessons learned
+  *   software development methodologies; best practices
+
+
+check lit and reddit. Most optimistic number is 20-50% new development.
+
+
+anything like a percentage of budget expenditure for software and support
+
+
+The only reason we've been able to get away with undercutting this
+investment is that our tools have no users. If they did, our
+expenditures would increase 4-10 fold without a single discernable
+increase in functionality
+
+
+these expenses include:
+. ongoing infrastructure and hardware maintenance costs
+. software maintenance
+. security audits
+. infrastructure upgrades
+. backups and fail-safe procedures
+. unit testing
+. integration testing
+. manual/live testing
+. qa/qc and product ship testing
+. email, phone and web support
+. documentation
+. outreach
+. procedural overhead
+. etc

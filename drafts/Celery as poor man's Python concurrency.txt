@@ -1,0 +1,13 @@
+﻿Partially this reflects on the poor python primitives for concurrent programming. 
+
+
+GIL.
+
+
+Multiprocessing, etc BUT…
+
+
+celery provides infinite scalability, reporting, workflow mgmt. 
+
+
+A little heavy-handed compared to the D/Go/Erlang model.

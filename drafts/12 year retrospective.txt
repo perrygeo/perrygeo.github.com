@@ -1,0 +1,37 @@
+﻿Thirteen years ago today, I delved into the world of GIS as part of my Natural Resources Management degree. Here’s what I’ve learned:
+
+
+1) It’s not all about “geo”. Time, semantics, analytical assumptions, domain knowledge and a fundamental understanding of the data are often more important than location. 
+
+
+2) There is a personal choice to be made: Are you acting as a data analyst (the product is a synthesis of knowledge derived from information) or as a tool builder (the product is a tool that allows others to derive knowledge from information)?
+
+
+3) Writing code is a prerequisite regardless of your choice on #2.
+
+
+4) There is no such thing as “done”, “finished” or “final”. There is only the current state and a vision for the future.
+
+
+5) “Work, don’t worry”: obsessive planning will not yield results. Making forward progress will. 
+
+
+6) … But don’t simply forge ahead making tracks in the wrong direction; plan and worry *as necessary* to steer the ship.
+
+
+7) If #5 and #6 seem at odds, you might be lacking perspective and/or real-world experience.
+
+
+8) The only thing preventing true collaboration between disciplines is a mis-understanding of vocabulary.
+
+
+9) Like student loan, sometimes it is worth taking on some technical debt (i.e. hacking together a solution that may be less than elegant). Also like a student loan, that debt will hang over you for years until you pay it off.
+
+
+10) Iterative development is the only way. If your goal is reaching the moon, try building a paper airplane first and see what you learn.
+
+
+11) Most of the greatest technological and scientific innovations never get published.
+
+
+12) Almost no failures get published; we need more of those

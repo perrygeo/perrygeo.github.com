@@ -1,0 +1,14 @@
+﻿Closed source 
+- responsibility rests with third party - blame
+- no recourse - whining, learned helplessness
+
+
+Open source
+- the only way to gain traction is to contirbute
+
+
+Diff
+Instead of asking “how do i do..” you see more people asking “I’ve tried to acoomplish X by doing Y but it gave me Z…”
+Complaints vs pull requests
+Outsourcing docs by poorly organized forums vs open contrib/wiki
+General attitude of working against the limitations vs openly accepting limitations with community suggesting alternatives and option to fix underlying issue.

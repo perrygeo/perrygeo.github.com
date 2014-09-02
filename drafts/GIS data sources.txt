@@ -1,0 +1,131 @@
+﻿Public GIS data sources
+A guide to freely available spatial data resources.
+
+
+Introduction
+
+
+As a GIS professional or casual mapping enthusiast, you have no doubt come to realize that spatial data is *the* crucial resource we all need to get the job done. The beginning of any project typically involves scouring many corners, searching for the many datasets you'll need. Often times you'll need to create the data yourself. But more often than you'd think, there is a dataset out there that you can use.
+
+
+When I began my GIS career, I was amazed at the wealth of spatial data that was available to me and, at the same time, amazed at the utter frustration and difficulty of obtaining it. A considerable amount of my time was spent researching other data collection efforts, scouring endless texts and websites, trying to determine if someone had already created the data I needed and how I could get my hands on it. There are many pitfalls... But never forget that many mappers have come before you and probably have exactly what you need.
+
+
+This book is an attempt to share the knowledge that I've gained. Will answer the question: What data is out there? How do you get it?
+
+
+
+
+- Ch 1: The process of obtaining data
+
+
+1. needs assessment
+2. awareness (what exists?) discovery/reasearch (metadata)
+3. obtaining (download process)
+4. assessing (attributes, metadata revisited, )
+5. processing (filtering, reprojecting, calculating columns)
+
+
+- Ch 2. What data do you need?
+vector or raster
+scale
+
+
+- Ch 3. What data is out there?
+licenseing
+techniques for searching
+organizations
+
+
+- Ch 4. Assessing data
+scale
+semantics
+attributes
+quality
+date
+
+
+- Ch 5. processing
+filtering, reprojecting, calculating columns, formats
+
+
+
+
+
+
+
+
+- Ch 6. Data Catalog
+
+
+-boundaries
+ - plss
+ - counties, states, countries
+ - parcels
+ - zip codes
+ - census
+ - congressional districts
+
+
+-social
+ - census
+ - population
+ - election
+
+
+- imagery
+ - satellite sensors
+   -MODIS, landsat,
+ - air photos
+ - topo quads
+
+
+- elevation
+ - dem
+ - lidar
+ - bathymetry
+
+
+- oceanography
+ -  bathymetry
+ - nav charts
+ 
+- geology
+ - faults
+ - soils
+
+
+- hydro
+ - streams
+ - lakes
+ - watersheds
+ - dams
+ - gauging stations
+ USACE Inland Electronic Navigational Chart
+ - NHD
+- national wetlands inventory
+
+
+- transportation & infrastucutre
+ - roads
+ - railroads
+
+
+- climate
+ - temp
+ - rainfall
+
+
+- fires
+
+
+-flood maps
+
+
+- vegetation & land use
+
+
+- species distributions & bio surveys
+
+
+- place names and geographic features

@@ -1,0 +1,11 @@
+        age of scare data and clever mathmatics to extract knowledge...
+        ... age of ubiquitous data and new workflows to extract knowledge.
+        "janitor work" - data wrangling is 50-80% (citation?)
+        Big data: volume, velocity and variety (difficult data)
+        incompatible formats, structure and semantics
+        mashups: using data for other than its intended purpose 
+            (some data collected for no specific reason)
+        90% of science is handling data! Data munging is a big opportunity
+        Pulling meaning out of data is a new method of scientific inquiry
+            1st empirical, 2nd theory, 3rd computational, 4th data
+        Prep data, run model, interpret results

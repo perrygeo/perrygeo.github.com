@@ -1,0 +1,4 @@
+﻿1. use gyb to create outputs
+2. 
+check in growth-yeild-batch/scripts/svs.html and svs_animated_gifs.py as a result of the work
+put example up on http://labs.ecotrust.org/forestplanner/svs/

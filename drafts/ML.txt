@@ -1,0 +1,119 @@
+﻿# Week 1
+--------------
+
+
+ML: program learns from experience E with respect to task T and some performance measure P
+if performance on T as measured by P improves with experience E (tom mitchell 1998)
+
+
+unsupervised
+supervised
+
+
+m = number of training examples (ie n)
+x = input vairables/features
+y = output variables/ target varables
+(x,y) = training example
+
+
+(xi,yi) = ith training example in training set
+i = 1 indexed
+
+
+training set -> learnning algorith -> h (hypotheseis) ... takes x, maps to output y
+
+
+univariate linear regression ... h(x) = theta0 + theta1 * x
+
+
+
+
+gradient descent
+derivative = slope of tangent line to the function
+
+
+LA
+----
+matrix 2 dimensional (rows x columns)
+
+
+M sub ij => ith row, jth column
+
+
+vector = n rows, 1 column ("n-dimensional vector")
+
+
+1 vs 0 indexed vectors ... in this class we will assume 1-indexed vectors but we may need to switch
+
+
+lower case is typcially vectors, upper case is typically matrix
+
+
+
+
+add matrices of same dimension, result is same dimension. 
+
+
+# matrix-vector multiplication
+multiply 3 x 2 matrix by 2d vector = 3x1 matrix or a 3 dim vector. 
+m x n matrix times n dimensional vector = m dimensional vector
+
+
+# matrix matrix multiplication
+
+
+2x3 times 3x2 = 2x2 matrix
+m x n matrix times n x o columns = m x o matrix
+
+
+# identity matrix
+ones along diagonals, zeros everywhere else  (denoted by I, dimension depends on context)
+when multiplied by any matrix, you get itself back. 
+
+
+# inverse
+A times A^-1 = I   (only applies to square matrix m x m)
+
+
+# transpose, flip i <-> j
+
+
+1 2 0                 1 3
+3 5 9   transposed    2 5
+                      0 9
+
+
+
+
+######################### Week 3
+Logistic regression
+y is discrete
+classification problem (start with binary, work up to multiclass)
+linear regression with thresholding, doesn't really work well
+
+
+h(x) = g(ThetaTrans * x)
+
+
+g(z) = 1 / (1 + e^-z)  # logistic function or sigmoid function (asym 0 and 1, g(0) = 0.5)
+
+
+so..
+
+
+h(x) = 1 / (1 + e^-(ThetaTrans * x))
+interpreted as estimated probability that y=1 given input x
+
+
+P(y=1 | x; Theta)  
+Probability that y=1 given X parameterized by Theta
+
+
+(ThetaTrans * X) >= 0 ~~> predict y=1
+
+
+h(x) can be represented as a line... "decision boundary"
+
+
+Use higher order polynomial features 
+x1^2 + x2^2 = 1 ... circle!

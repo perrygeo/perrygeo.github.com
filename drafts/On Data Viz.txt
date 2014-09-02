@@ -1,0 +1,16 @@
+﻿Most successful projects I've worked on in my professional career that have culminated in unique ways of visualizing data were developed from the AH HA! moment. Not from a top-down need to develop the capacity for it's own sake but from a deep, bottom-up, organic understanding of the data that lead to breakthroughs in thinking that could be represented visually. It's very hard to plan and budget for that kind of innovation.
+
+
+Also, I'd say that good #dataviz is dependent on a deep understanding of the data and not so much on the actual tools used to implement it.
+
+
+So a project should probably focus on exploring a particular problem in unique ways rather than a general technology capacity approach.
+
+
+
+
+John snow's cholera map
+http://www.guardian.co.uk/news/datablog/2013/mar/15/john-snow-cholera-map
+
+
+Tools do allow innovative visualizations but never forget that good viz is dependent on deep understanding of the data.

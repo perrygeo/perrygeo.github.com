@@ -1,0 +1,7 @@
+    advantages to random forests:
+        - no scaling
+        - multiclass
+        - probabalistic
+        - feature importances
+        - non-linear
+        - easy to tune
