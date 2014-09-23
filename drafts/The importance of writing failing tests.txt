@@ -1,0 +1,3 @@
+Forget this notion of keeping tests passing, the most important step in TDD is writing a test that fails. Don't be afraid to check it in. By ommitting failing tests to keep them passing, you are effectively lying about your software - you know it *should* do something but currently does not. The unit tests *should* fail if the software doesn't live up to it's contract.
+
+Unit tests are the contract. They are the canonical source of truth.  
