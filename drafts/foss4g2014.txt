@@ -1,0 +1,17 @@
+FOSS4G blog post
+    GRASS7 is alive
+        With about 32 years of continuous development behind it, GRASS is easily the oldest open source GIS tool. But it's no dinosaur; on the contrary it is alive and well and actually leading the way on many advanced GIS applications. GRASS showed up in a surprising number of talks here at FOSS4G and seems to have solidified it's reputation as a mature, full-featured GIS for advanced analyses. GRASS 7 (still under development) is a tremendous step forward with numerous performance and code organization improvements as well as some new advanced hydrology tools and temporal raster modules (for working with "space-time cubes"). The interfaces are clunky but improving: the QGIS toolbox and wps services can wrap GRASS easily and transparently for the user. The new pygrass python bindings allow python developers to integrate GRASS functionality in other environments (for example, django web applications). Even the GRASS GUI looks relatively useable. 
+    Tactile user interfaces
+        Interfaces are getting less abstract thanks to 3D printing and sensor technology. There were a few talks that really highlighted the importance of real, physical user interfaces: 3D printing of scientific data, using sculpted sand (a tactile user interface!) to dynamically change an elevation surface for hydrologic modeling
+    aerial photography gets easier
+        using quadcopters and structure-from-motion software to capture aerial imagery and surface models. 
+    javascript is everywhere
+        From embeded JS callbacks in mapserver files to ___, js is everywhere
+        web mapping tech is maturing with OL3, cesium, d3,
+    cool science is being done with FOSS
+        Peter Long
+        Chris Toney
+        <south african speaker re: landsat>
+Tools of interest to Ecotrust (FOSS4g)
+    LEFT
+    Ecoset
