@@ -9,7 +9,7 @@ description: ""
 DRAFT. This is a work in progress. Please contact me at my gmail address (perrygeo) or on twitter (@perrygeo) for more information.  
 </div>
 
-I have dedicated my career to *deriving value from data* and supporting *science-based decision making* with software and technology. I have 12 years of experience in geospatial data analysis and software development applied to natural resource management. Throughout my career, I've worked in consulting, academic and non-profit settings. My professional and research interests include software development, web mapping, spatial analysis, climate impact modeling, bayesian statistics, machine learning, reproducible methods and data workflows for spatial modeling, forest growth and yield modeling, and discrete optimization.
+I have dedicated my career to deriving value from data and supporting science-based decision making with software and technology. I have 12 years of experience in geospatial data analysis and software development applied to natural resource management. Throughout my career, I've worked in consulting, academic and non-profit settings. My professional and research interests include software development, web mapping, spatial analysis, climate impact modeling, bayesian statistics, machine learning, reproducible methods and data workflows for spatial modeling, forest growth and yield modeling, and discrete optimization.
 
 
 ## Education
@@ -111,7 +111,7 @@ Our survey research team studied the detrimental impacts of ﬁnancial stress in
 
 
 
-## Software Projects (Primary developer)
+## Software Projects (Lead Developer)
 * simanneal
 * harvestscheduler
 * growth-yield-batch
