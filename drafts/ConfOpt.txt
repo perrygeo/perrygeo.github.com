@@ -1,0 +1,35 @@
+ConfOpt
+Optimize ytour conference schedule
+
+talks
+rooms
+time slots (per room)
+breaks
+attendees
+attendee-preferences
+room distance matrix
+conference 
+
+
+move: swap talks to different room
+
+objfunc:
+	summed over attendees
+		number of talks missed by each attendee (weighted by preference "coins")
+		distance traveled between adjacent talks w/o breaks
+	summed over rooms
+		penalty for overfull
+		penalty for under capacity
+
+
+attendees fill out preferences
+run opt model until convergence; async email results
+	results include xls spreadsheet, pdf, word doc, html, diagnostic stats
+
+charge by
+	expected attendance (per attendee) plus charge per report
+
+
+
+
+

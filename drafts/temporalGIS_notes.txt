@@ -1,0 +1,132 @@
+
+I'm having trouble reading a NetCDF file with GDAL (version 1.10.1)
+
+
+The URL for the dataset is:
+http://thredds1.nkn.uidaho.edu:8080/thredds/fileServer/NWCSC_INTEGRATED_SCENARIOS_ALL_CLIMATE/macav2livneh/CanESM2/macav2livneh_tasmin_CanESM2_rcp45_2086_2099_CONUS_monthly.nc
+
+
+$ gdal_translate -of GTiff -b 1 macav2livneh_tasmin_CanESM2_rcp45_2086_2099_CONUS_monthly.nc test.tif
+Warning 1: No UNIDATA NC_GLOBAL:Conventions attribute
+Input file size is 922, 444
+0ERROR 1: nBlockYSize = 109, only 1 supported when reading bottom-up dataset
+ERROR 1: macav2livneh_tasmin_CanESM2_rcp45_2086_2099_CONUS_monthly.nc, band 1: IReadBlock failed at X offset 0, Y offset 0
+ERROR 1: GetBlockRef failed at X block offset 0, Y block offset 0
+
+$ gdal_translate -of GTiff -b 1 macav2livneh_tasmin_CanESM2_rcp45_2086_2099_CONUS_monthly.nc test.tif --config GDAL_NETCDF_BOTTOMUP NO 
+#### !!! Works .. but it's upside down :-(
+
+That's fine since r.external has a -v arg in grass71
+
+Next steps:
+
+x start ipython notebook
+* netcdf4 to read some key attributes
+* create new grass session with mower
+* r.external -v for all bands of the temperature data
+* t.connect
+* t.create
+* t.register
+* mapcalc example
+* aggregate example
+* query point over time and graph it
+* animated maps
+* 3D view with paraview and nviz
+
+
+export GDAL_NETCDF_BOTTOMUP=NO
+
+
+------------------
+gdalinfo GCAM_ref_2005_2095.nc4 
+
+# Now we take the subdataset
+
+gdalinfo NETCDF:"GCAM_ref_2005_2095.nc4":landcoverpercentage
+
+grass71 -c GCAM_ref_2005_2095.nc4 ~/grassdata/CONUS_GCAM
+
+r.external input=GCAM_ref_2005_2095.nc4 output=test
+g.list rast
+t.connect -d
+
+# create empty temporal ds
+
+t.create --o type=strds temporaltype=absolute output=landcover title="Landcover" \
+  description="Landcover predictions"
+
+t.register -i type=rast input=landcover maps=`g.mlist rast pat=test.* sep=,`\
+  start="2005-01-01" increment="1 years"
+
+
+
+------------
+
+gdalinfo macav2livneh_tasmax_CCSM4_rcp45_2006_2025_CONUS.nc  | grep SUB
+Warning 1: No UNIDATA NC_GLOBAL:Conventions attribute
+  SUBDATASET_1_NAME=NETCDF:"macav2livneh_tasmax_CCSM4_rcp45_2006_2025_CONUS.nc":air_temperature
+
+    NC_GLOBAL#time_coverage_start=2006-01-01T00:0
+
+    number of bands?
+    rio_insp macav2livneh_tasmax_CCSM4_rcp45_2006_2025_CONUS.nc  --meta
+WARNING:GDAL:CPLE_AppDefined in No UNIDATA NC_GLOBAL:Conventions attribute
+{ 'affine': Affine(0.0625, 0.0, -124.625,
+       0.0, -0.0625, 52.87495040893555),
+  'count': 7305,
+  'crs': { u'ellps': u'WGS84', u'no_defs': True, u'proj': u'longlat'},
+  'driver': u'netCDF',
+  'dtype': <type 'numpy.float32'>,
+  'height': 444,
+  'nodata': -9999.0,
+  'transform': (-124.625, 0.0625, 0.0, 52.87495040893555, 0.0, -0.0625),
+  'width': 922}
+
+-----
+grass71 -c macav2livneh_tasmax_CCSM4_rcp45_2006_2025_CONUS.nc ~/grassdata/maca/
+
+#### 
+
+g.mremove -f type=rast pattern=* 
+r.external macav2livneh_tasmax_CCSM4_rcp45_2006_2025_CONUS.nc output=tasmax_CCSM4
+# Bad ordering of bands, can't sort them!
+# r.external macav2livneh_tasmax_CCSM4_rcp45_2006_2025_CONUS.nc output=tasmax_CCSM4
+
+for i in $(seq 1 5); do 
+   istr=`printf "%05g" $i`
+   #r.external NETCDF:"macav2livneh_tasmax_CCSM4_rcp45_2006_2025_CONUS.nc":air_temperature \
+   echo "-------------------"
+   echo $istr
+   echo $i
+   echo "-------------------"
+   r.external input=macav2livneh_tasmax_CCSM4_rcp45_2006_2025_CONUS.nc \
+       band=$i output=tasmax_CCSM4.$istr 
+done
+# GDAL can't work with these netcdfs due to yblocksize
+
+g.mremove -f type=rast pattern=* 
+
+for i in $(seq 1 21); do 
+   istr=`printf "%02g" $i`
+   echo $istr
+   # r.external \
+   r.in.gdal input=tasmax_$istr.tif \
+       band=1 output=tasmax_$istr 
+done
+
+
+t.create --o type=strds temporaltype=absolute semantictype=mean \
+  output=tasmax \
+  title="MaxTemp_CCSM4" \
+  description="Max Temp CCSM4"
+
+t.register -i --o type=rast input=tasmax \
+  maps=`g.mlist rast pat=tasmax_* sep=,` \
+  start="2006-01-01" increment="1 days"
+
+t.rast.to.rast3 input=tasmax output=tasmax3d --o
+
+r3.out.vtk --o input=tasmax3d output=tasmax_3weeks_test.vtk dp=2
+r3.out.netcdf --o input=tasmax3d output=tasmax_3weeks_test.nc
+
+paraview --data=tasmax_3weeks_test.vtk 
