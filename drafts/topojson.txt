@@ -1,0 +1,4 @@
+    npm install -g topojson
+    http://zevross.com/blog/2014/04/22/spatial-data-on-a-diet-tips-for-file-size-reduction-using-topojson/
+    # convert shapefile
+    # simplify
