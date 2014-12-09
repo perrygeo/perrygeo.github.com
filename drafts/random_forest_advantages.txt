@@ -1,7 +1,66 @@
-    advantages to random forests:
-        - no scaling
-        - multiclass
-        - probabalistic
-        - feature importances
-        - non-linear
-        - easy to tune
+# scikit-learn random forests: the ultimate starting point for machine learning exploration
+
+For software developers and data analysts starting to delve into machine learning, 
+and even for seasoned data scientists starting up a new project, choosing the "right" approach to
+predictive modeling might seem overwhelming.
+There's a daunting selection of programming languages, libraries, mathematical and statistcal models, 
+parameters to tune, GPUs and CPUs to run on, and so on.
+
+Here's the secret: **You won't ever get it "right" on your first attempt**. The best you can hope for
+is to gain insights into your data with a minimal amount of overhead. So where do you start?
+I'm going to make the case that you should always start your analysis using **Python**, specifically the 
+**RandomForest** classification and regression models from the **scikit-learn** package.
+
+There are a several unique characteristics of this approach that make it extremely well suited for the
+initial exploration of predictive models:
+
+## No scaling
+
+Random forests does not care if some of your features are scaled 0 to 1 and others are scaled 0 to 100.
+When splitting the data into decision trees each node is split on a single feature independently. Other
+models can be highly sensitive to variable scaling and you will have to do a good deal of iterative 
+testing and careful consideration to determine how to best scale all of your data to a common numeric scale.
+
+## Single Class, Multiclass, Regression
+You can predict anything
+
+## Probabilistic
+Ensemble decision tree approach. Gives you certainty along with prediction.
+
+## non-linear interactions
+
+If you have non-linear relationships between your variables, these are automatically captured 
+by the Ensemble decision tree approach. With other techniques, you may be forced to explicitly
+model the interaction terms. 
+ 
+## easy to tune but with sensible defaults
+
+## multicore 
+You have 8 cores? Set `n_jobs=8` and enjoy process-level concurrency. 
+
+## diagnostics
+
+### cross validation
+### confusion matrix
+### calibration reports
+### feature importances
+
+## Simple, standardized API
+
+It doesn't get much easier than this.  And if you stick to scikit-learn and explore it's other
+classifiers and regressors, you can easily swap them in with very minimal effort.
+
+## Powerful out of the box
+
+I'd wager that simply shoving data into RandomForests will get you somewhere up on the Kaggle leaderboard
+without much effort. 
+
+For me, the bottom line is that using `scikit-learn`'s `RandomForest` classification and regression, 
+I can quickly get my data in and immediately start gaining insights, forming hypotheses and testing them.
+I can confidently draw some preliminary conclusions about the dataset with very little time invested. The 
+code I write can be the foundation for exploration of other techniques in the scikit-learn repertoire. And 
+finally, it gives me the information I need to intelligently plan the next steps in the analysis.
+ Very often that next step may not involve RandomForests or even scikit-learn or Python or the hardware on which it's currently running.
+But there is tremendous value in being able to get past the first hurdle quickly and painlessly. 
+
+
