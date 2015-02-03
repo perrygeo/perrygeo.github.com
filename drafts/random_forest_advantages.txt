@@ -50,7 +50,7 @@ You have 8 cores? Set `n_jobs=8` and enjoy process-level concurrency.
 It doesn't get much easier than this.  And if you stick to scikit-learn and explore it's other
 classifiers and regressors, you can easily swap them in with very minimal effort.
 
-## Powerful out of the box
+## Consistent and Powerful out of the box on a wide variety of problems
 
 I'd wager that simply shoving data into RandomForests will get you somewhere up on the Kaggle leaderboard
 without much effort. 
@@ -58,9 +58,10 @@ without much effort.
 For me, the bottom line is that using `scikit-learn`'s `RandomForest` classification and regression, 
 I can quickly get my data in and immediately start gaining insights, forming hypotheses and testing them.
 I can confidently draw some preliminary conclusions about the dataset with very little time invested. The 
-code I write can be the foundation for exploration of other techniques in the scikit-learn repertoire. And 
+code I write can be the foundation for the exploration of other techniques in the scikit-learn repertoire. And 
 finally, it gives me the information I need to intelligently plan the next steps in the analysis.
  Very often that next step may not involve RandomForests or even scikit-learn or Python or the hardware on which it's currently running.
-But there is tremendous value in being able to get past the first hurdle quickly and painlessly. 
+But there is tremendous value in being able to get past the first hurdle quickly and painlessly. Start your
+predictive model off on the right foot and give the scikit-learn RandomForest classifier a try.
 
 
