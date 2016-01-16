@@ -44,7 +44,7 @@ _p1.py_
 
 
 
-Lets try it out and [time it](http://www.diveintopython.org/performance_tuning/timeit.html) over 1/2 million function calls:
+Lets try it out and [time it](http://www.diveintopython.net/performance_tuning/timeit.html) over 1/2 million function calls:
 
 
     
